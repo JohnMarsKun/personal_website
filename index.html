@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<link rel="preload" href="src/bgimgdark.png" as="image">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico?v=2"> <!-- add a file named favicon.ico -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>John Maris</title>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          processEscapes: true
+        }
+      });
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+
+<body>
+    <div id="content-wrap">
+
+        <div class="header">
+            <div class="nav">
+                <nav>
+                    <ul>
+                        <li><a href="#" class="current flicker-anim" id="homeNav" onclick="loadContent('home')">HOME</a></li>
+                        <li><a href="#" class="not-current" id="eduNav" onclick="loadContent('education')">EDUCATION</a></li>
+                        <li><a href="#" class="not-current" id="expNav" onclick="loadContent('experience')">EXPERIENCE</a></li>
+                        <li><a href="#" class="not-current" id="booksNav" onclick="loadContent('books')">BOOKS</a></li>
+                        <!--<li><a href="#" class="not-current" id="projNav">Projects</a></li>
+                        <li><a href="#" class="not-current">Learning</a></li>-->
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="contents-flexbox" id="mainContent">
+            <div class="contents">
+                <div class="home card">
+
+                    <div class="profile" id="profile" onclick="easterEgg()">
+                        <img src="src/pfp2.png" alt="Profile Image">
+                    </div>
+                    <div class="info">
+                        <div>
+                            <h1>John Maris</h1>
+                        </div>
+
+                        <div class="horizontal-div"></div>
+                        <h3 id="description">
+                            MSc student in&nbsp;
+                            <a href="https://mscs.uoc.gr/damsl/" class="link">Data Analysis & Machine-Statistical Learning</a>
+                        </h3>
+                        <p style="font-size: 14px; margin-top: 10px;"> Email: gianismaris13(AT)gmail.com</p>
+                        <div class="buttons-div">
+                            <a href="https://www.linkedin.com/in/ioannis-maris-987534252/" style="background-color: #0077b5;" target="_blank" class="buttons">
+                                LinkedIn <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/JohnMarsKun" class="buttons" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+          
+            <div class="contents" id="contents2">
+                
+
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </div>
+    <br>
+    
+    <footer class="footer">
+        <hr style="margin: 20px; color: rgb(0, 0, 0);margin-top: 0px;margin-bottom: 5px;">
+        John (Ioannis) Maris 2024
+    </footer>
+  
+</body>
+
+
+
+</html>
