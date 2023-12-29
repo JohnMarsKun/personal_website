@@ -4,8 +4,6 @@ body {
     position: relative;
     min-height: 100vh;
 
-    
-
     box-shadow: none;
 
     background-color:#000000;
@@ -17,15 +15,7 @@ body {
     font-family: monospace;
     font-weight: bold;
 
-    /* test feature - fade in on page load animation*/
-    opacity: 0; /* starts at 0*/
-    transition: opacity 1s;
-    /* onload action to change opacity to 1 in script.js , window.onload*/
-    
-
 }
-
-
 
 /* HEADER */
 .header {
@@ -198,7 +188,6 @@ li{
 #content-wrap {
     background: inherit;
     padding-bottom: 2.5rem;    /* Footer height */
-    z-index: 2;
 }
 
 .contents-flexbox{
@@ -323,6 +312,7 @@ li{
     margin: 0 auto;
 }
 
+
 /* G5 animation go away */
 #lnikaGifedu {
     transition: opacity 1s ease-out;
@@ -338,3 +328,4 @@ li{
     transition: opacity 1s ease-out;
     opacity: 1;
 }
+
