@@ -60,7 +60,26 @@ const educationContent = `
                 </div>
 `;
 
+// Get the "EXPERIENCE" button's position
+var expButton = document.getElementById('eduNav');
+var rect = expButton.getBoundingClientRect();
+
+// Show the nika gif at the button's position (when the button is clicked)
+var lnikaGif = document.getElementById('lnikaGifedu');
+lnikaGif.style.display = 'block'; // Make the GIF visible
+lnikaGif.style.left = rect.left + 35 + 'px'; // Position horizontally
+lnikaGif.style.top = (rect.top + rect.height - 8) + 'px'; // Position vertically just below the button
+
 document.getElementById('contents2').innerHTML = educationContent;
+
+// Hide the GIF after 5 seconds
+setTimeout(function() {
+    lnikaGif.style.opacity = '0';
+    // Wait for the transition to finish before hiding the element
+    setTimeout(function() {
+        lnikaGif.style.display = 'none';
+    }, 1000); // Wait an additional 1 second for the fade-out transition
+}, 5000);
 }
 
 function loadHomeContent() {
@@ -106,6 +125,7 @@ const homeContent = `
 
 `;
 
+
 document.getElementById('contents2').innerHTML = homeContent;
 }
 
@@ -133,46 +153,83 @@ function loadExperienceContent() {
                         </ul>
                     </div>
     `;
+    // Get the "EXPERIENCE" button's position
+    var expButton = document.getElementById('expNav');
+    var rect = expButton.getBoundingClientRect();
+
+    // Show the nika gif at the button's position (when the button is clicked)
+    var lnikaGif = document.getElementById('lnikaGifexp');
+    lnikaGif.style.display = 'block'; // Make the GIF visible
+    lnikaGif.style.left = rect.left + 35 + 'px'; // Position horizontally
+    lnikaGif.style.top = (rect.top + rect.height - 8) + 'px'; // Position vertically just below the button
+
+    document.getElementById('contents2').innerHTML = ExperienceContent;
+
+    // Hide the GIF after 5 seconds
+    setTimeout(function() {
+        lnikaGif.style.opacity = '0';
+        // Wait for the transition to finish before hiding the element
+        setTimeout(function() {
+            lnikaGif.style.display = 'none';
+        }, 1000); // Wait an additional 1 second for the fade-out transition
+    }, 5000);
+    }
+
+    function loadBookContent() {
+        const BookContent = `
+                        <div class="card" id="education">
+                            <h2>SUGGESTED BOOKS</h2>
+                            <p>- <a class = "course" target = "_blank" href="https://www.statlearning.com">James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). An introduction to statistical learning (Vol. 112, p. 18). New York: springer.</a> </p>
+                            <br>
+                            <p>- <a class = "course" target = "_blank" href="https://hastie.su.domains/Papers/ESLII.pdf">Hastie, Trevor, et al. The elements of statistical learning: data mining, inference, and prediction. Vol. 2. New York: springer, 2009.</a> </p>
+                            <br>
+                            <p>- Koenker, Roger, et al., eds. "Handbook of quantile regression." (2017).</p>
+                            <br>
+                            <p>- Keener, Robert W. Theoretical statistics: Topics for a core course. Springer Science & Business Media, 2010.</p>
+                            <br>
+                            <p>- Matloff, Norman. The art of R programming: A tour of statistical software design. No Starch Press, 2011.</p>
+                            <br>
+                            <p>- Thorp, Edward O. Beat the dealer: A winning strategy for the game of twenty-one. Vol. 310. Vintage, 1966.</p>
+                            <br>
+                            <p>- Xu, Jun. Modern Applied Regressions: Bayesian and Frequentist Analysis of Categorical and Limited Response Variables with R and Stan. CRC Press, 2022.</p>
+                            <br>
+                            <p>- Bonanno, Giacomo. Game theory: Parts I and II-with 88 solved exercises. An open access textbook. No. 15-2. Working Paper, 2015.</p>
+                            <br>
+                            <p>- Burnham, Kenneth P., and David R. Anderson. "Model selection and multimodel inference." A practical information-theoretic approach 2 (2004).</p>
+                            <br>
+                            <p>- O’Neil, Cathy. "Weapons of Math Destruction."</p>
+                            <br>
+                            <p>- Kaku, Michio. Quantum Supremacy: How the Quantum Computer Revolution Will Change Everything. Doubleday, 2023.</p>
+                        </div>
+        `;
+        
+        
+        // Get the "book" button's position
+        var expButton = document.getElementById('booksNav');
+        var rect = expButton.getBoundingClientRect();
+
+        // Show the nika gif at the button's position (when the button is clicked)
+        var lnikaGif = document.getElementById('lnikaGifbooks');
+        lnikaGif.style.display = 'block'; // Make the GIF visible
+        lnikaGif.style.left = rect.left + 35 + 'px'; // Position horizontally
+        lnikaGif.style.top = (rect.top + rect.height - 8) + 'px'; // Position vertically just below the button
+
+        document.getElementById('contents2').innerHTML = BookContent;
+
+        // Hide the GIF after 5 seconds
+        setTimeout(function() {
+            lnikaGif.style.opacity = '0';
+            // Wait for the transition to finish before hiding the element
+            setTimeout(function() {
+                lnikaGif.style.display = 'none';
+            }, 1000); // Wait an additional 1 second for the fade-out transition
+        }, 5000);
+        }
     
-document.getElementById('contents2').innerHTML = ExperienceContent;
-}
 
-function loadBookContent() {
-const BookContent = `
-                <div class="card" id="education">
-                    <h2>SUGGESTED BOOKS</h2>
-                    <p>- <a class = "course" target = "_blank" href="https://www.statlearning.com">James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). An introduction to statistical learning (Vol. 112, p. 18). New York: springer.</a> </p>
-                    <br>
-                    <p>- <a class = "course" target = "_blank" href="https://hastie.su.domains/Papers/ESLII.pdf">Hastie, Trevor, et al. The elements of statistical learning: data mining, inference, and prediction. Vol. 2. New York: springer, 2009.</a> </p>
-                    <br>
-                    <p>- Koenker, Roger, et al., eds. "Handbook of quantile regression." (2017).</p>
-                    <br>
-                    <p>- Keener, Robert W. Theoretical statistics: Topics for a core course. Springer Science & Business Media, 2010.</p>
-                    <br>
-                    <p>- Matloff, Norman. The art of R programming: A tour of statistical software design. No Starch Press, 2011.</p>
-                    <br>
-                    <p>- Thorp, Edward O. Beat the dealer: A winning strategy for the game of twenty-one. Vol. 310. Vintage, 1966.</p>
-                    <br>
-                    <p>- Xu, Jun. Modern Applied Regressions: Bayesian and Frequentist Analysis of Categorical and Limited Response Variables with R and Stan. CRC Press, 2022.</p>
-                    <br>
-                    <p>- Bonanno, Giacomo. Game theory: Parts I and II-with 88 solved exercises. An open access textbook. No. 15-2. Working Paper, 2015.</p>
-                    <br>
-                    <p>- Burnham, Kenneth P., and David R. Anderson. "Model selection and multimodel inference." A practical information-theoretic approach 2 (2004).</p>
-                    <br>
-                    <p>- O’Neil, Cathy. "Weapons of Math Destruction."</p>
-                    <br>
-                    <p>- Kaku, Michio. Quantum Supremacy: How the Quantum Computer Revolution Will Change Everything. Doubleday, 2023.</p>
-                </div>
-`;
-
-document.getElementById('contents2').innerHTML = BookContent;
-}
-
-
-// actions when the page loads
+// Call loadHomeContent when the page loads
 window.onload = function() {
-    loadHomeContent();
-    document.body.style.opacity= '1';
+loadHomeContent();
 };
 
 function easterEgg() {
@@ -180,3 +237,116 @@ function easterEgg() {
     setTimeout(() => 
         { document.getElementById('profile').innerHTML = '<img src="src/pfp2.png" alt="Profile Image" onclick="easterEgg()">'; }, 100);
 }
+
+
+/* Clock */
+function showTime(){
+    var date = new Date();
+    var h = date.getHours(); // 0 - 23
+    var m = date.getMinutes(); // 0 - 59
+    var s = date.getSeconds(); // 0 - 59
+    var session = "AM";
+
+    if(h == 0){
+        h = 12;
+    }
+
+    if(h > 12){
+        h = h - 12;
+        session = "PM";
+    }
+
+    h = (h < 10) ? "0" + h : h;
+    m = (m < 10) ? "0" + m : m;
+    s = (s < 10) ? "0" + s : s;
+
+    var time = h + ":" + m + ":" + s + " " + session;
+    document.getElementById("MyClockDisplay").innerText = time;
+    document.getElementById("MyClockDisplay").textContent = time;
+
+    setTimeout(showTime, 1000);
+
+}
+
+showTime();
+
+
+/* Switch clock Animation */
+
+// Switch clock Animation
+
+// Helper function to position the GIF randomly
+function positionGif(gif) {
+    var maxheight = document.getElementById('profile').clientHeight - 90;
+    var maxwidth = document.getElementById('profile').clientWidth - 90;
+  
+    // Generate a random position within the container
+    var randomLeft = Math.floor(Math.random() * maxwidth);
+    var randomTop = Math.floor(Math.random() * maxheight);
+  
+    gif.style.left = randomLeft + 'px';
+    gif.style.top = randomTop + 'px';
+    gif.style.position = 'absolute';
+  }
+  
+  
+  // Function to show the first GIF and set a timeout to show the second GIF
+  function showFirstGif() {
+    var gif = document.getElementById('gif');
+    gif.src = 'src/MM1.gif';
+    gif.style.width = '71%'; // Original size
+    gif.style.height = '71%'; // Original size
+    positionGif(gif);
+    // Set a timeout to show the second GIF after 6000 milliseconds
+    setTimeout(showSecondGif, 7000);
+  }
+  
+  // Function to show the second GIF and set a timeout to show the third GIF
+  function showSecondGif() {
+    var gif = document.getElementById('gif');
+    gif.src = 'src/MM2.gif';
+    gif.style.width = '56%'; // Smaller size
+    gif.style.height = '56%'; // Smaller size
+    positionGif(gif);
+    // Set a timeout to show the third GIF after 2000 milliseconds
+    setTimeout(showFourthGif, 2000);
+  }
+  
+  // Function to show the third GIF and set a timeout to show the fourth GIF
+  function showThirdGif() {
+    var gif = document.getElementById('gif');
+    gif.src = 'src/MM3.gif';
+    gif.style.width = '65%'; // Size for the third GIF
+    gif.style.height = '65%'; // Size for the third GIF
+    positionGif(gif);
+    // Set a timeout to show the fourth GIF after 485 milliseconds
+    setTimeout(showFirstGif, 487);
+  }
+  
+  // Function to show the fourth GIF and set a timeout to show the first GIF
+  function showFourthGif() {
+    var gif = document.getElementById('gif');
+    gif.src = 'src/MM4.gif';
+    gif.style.width = '58%';
+    gif.style.height = '58%';
+    positionGif(gif);
+    setTimeout(showFirstGif, 8500);
+  }
+
+    function showFourthGif() {
+    var gif = document.getElementById('gif');
+    gif.src = 'src/MM4.gif';
+    gif.style.width = '58%';
+    gif.style.height = '58%';
+    positionGif(gif);
+    setTimeout(showFirstGif, 8500);
+  }
+
+  // Use `DOMContentLoaded` to ensure all DOM content is loaded before running the script
+  document.addEventListener('DOMContentLoaded', function() {
+    showThirdGif(); // Start with the fourth GIF
+  });
+  
+
+
+  
