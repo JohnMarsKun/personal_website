@@ -89,7 +89,7 @@ const homeContent = `
                         </li>
 
                         <li>
-                        <a class="course" target="_blank">NewYork Air-Quality dataset analysis using Penalized estimation, Stepwise model building, Adaptive regression and Monte-Carlo experiments</a>
+                        <a class="course" href="https://www.kaggle.com/datasets/mfaisalqureshi/newyork-air-quality" target="_blank">NewYork Air-Quality dataset analysis using Penalized estimation, Stepwise model building, Adaptive regression and Monte-Carlo experiments</a>
                         <a class="course" href="src/proj/StatsLearn2.pdf" target="_blank">(part 1 <i class="fas fa-link"> </i>)</a> <a class="course" href="src/proj/StatsLearn3.pdf" target="_blank">(part 2 <i class="fas fa-link"> </i>)</a>
                         </li>
 
