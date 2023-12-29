@@ -322,3 +322,19 @@ li{
     letter-spacing: 7px;
     margin: 0 auto;
 }
+
+/* G5 animation go away */
+#lnikaGifedu {
+    transition: opacity 1s ease-out;
+    opacity: 1;
+}
+
+#lnikaGifbooks {
+    transition: opacity 1s ease-out;
+    opacity: 1;
+}
+
+#lnikaGifexp {
+    transition: opacity 1s ease-out;
+    opacity: 1;
+}
