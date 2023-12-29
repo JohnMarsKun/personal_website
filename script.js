@@ -72,14 +72,14 @@ lnikaGif.style.top = (rect.top + rect.height - 8) + 'px'; // Position vertically
 
 document.getElementById('contents2').innerHTML = educationContent;
 
-// Hide the GIF after 5 seconds
+// Hide the GIF
 setTimeout(function() {
     lnikaGif.style.opacity = '0';
     // Wait for the transition to finish before hiding the element
     setTimeout(function() {
         lnikaGif.style.display = 'none';
     }, 1000); // Wait an additional 1 second for the fade-out transition
-}, 5000);
+}, 2000);
 }
 
 function loadHomeContent() {
@@ -165,14 +165,14 @@ function loadExperienceContent() {
 
     document.getElementById('contents2').innerHTML = ExperienceContent;
 
-    // Hide the GIF after 5 seconds
+    // Hide the GIF
     setTimeout(function() {
         lnikaGif.style.opacity = '0';
         // Wait for the transition to finish before hiding the element
         setTimeout(function() {
             lnikaGif.style.display = 'none';
         }, 1000); // Wait an additional 1 second for the fade-out transition
-    }, 5000);
+    }, 2000);
     }
 
     function loadBookContent() {
@@ -216,14 +216,13 @@ function loadExperienceContent() {
 
         document.getElementById('contents2').innerHTML = BookContent;
 
-        // Hide the GIF after 5 seconds
         setTimeout(function() {
             lnikaGif.style.opacity = '0';
             // Wait for the transition to finish before hiding the element
             setTimeout(function() {
                 lnikaGif.style.display = 'none';
             }, 1000); // Wait an additional 1 second for the fade-out transition
-        }, 5000);
+        }, 2000);
         }
     
 
@@ -294,8 +293,8 @@ function positionGif(gif) {
   function showFirstGif() {
     var gif = document.getElementById('gif');
     gif.src = 'src/MM1.gif';
-    gif.style.width = '71%'; // Original size
-    gif.style.height = '71%'; // Original size
+    gif.style.width = '41%'; // Original size
+    gif.style.height = '41%'; // Original size
     positionGif(gif);
     // Set a timeout to show the second GIF after 6000 milliseconds
     setTimeout(showSecondGif, 7000);
@@ -305,8 +304,8 @@ function positionGif(gif) {
   function showSecondGif() {
     var gif = document.getElementById('gif');
     gif.src = 'src/MM2.gif';
-    gif.style.width = '56%'; // Smaller size
-    gif.style.height = '56%'; // Smaller size
+    gif.style.width = '26%'; // Smaller size
+    gif.style.height = '26%'; // Smaller size
     positionGif(gif);
     // Set a timeout to show the third GIF after 2000 milliseconds
     setTimeout(showFourthGif, 2000);
@@ -316,8 +315,8 @@ function positionGif(gif) {
   function showThirdGif() {
     var gif = document.getElementById('gif');
     gif.src = 'src/MM3.gif';
-    gif.style.width = '65%'; // Size for the third GIF
-    gif.style.height = '65%'; // Size for the third GIF
+    gif.style.width = '35%'; // Size for the third GIF
+    gif.style.height = '35%'; // Size for the third GIF
     positionGif(gif);
     // Set a timeout to show the fourth GIF after 485 milliseconds
     setTimeout(showFirstGif, 487);
@@ -327,22 +326,17 @@ function positionGif(gif) {
   function showFourthGif() {
     var gif = document.getElementById('gif');
     gif.src = 'src/MM4.gif';
-    gif.style.width = '58%';
-    gif.style.height = '58%';
+    gif.style.width = '28%';
+    gif.style.height = '28%';
     positionGif(gif);
-    setTimeout(showFirstGif, 8500);
-  }
-
-    function showFourthGif() {
-    var gif = document.getElementById('gif');
-    gif.src = 'src/MM4.gif';
-    gif.style.width = '58%';
-    gif.style.height = '58%';
-    positionGif(gif);
-    setTimeout(showFirstGif, 8500);
+    setTimeout(showFirstGif, 10000);
   }
 
   // Use `DOMContentLoaded` to ensure all DOM content is loaded before running the script
   document.addEventListener('DOMContentLoaded', function() {
     showThirdGif(); // Start with the fourth GIF
   });
+  
+
+
+  
