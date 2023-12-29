@@ -346,7 +346,3 @@ function positionGif(gif) {
   document.addEventListener('DOMContentLoaded', function() {
     showThirdGif(); // Start with the fourth GIF
   });
-  
-
-
-  
