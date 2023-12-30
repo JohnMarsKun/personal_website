@@ -236,7 +236,7 @@ window.onload = function() {
 
 //
 function easterEgg() {
-    document.getElementById('profile').innerHTML = '<img src="src/easter_egg.webp" style="width:250px">';
+    document.getElementById('profile').innerHTML = '<img src="src/easter_egg.png" style="width:250px">';
     setTimeout(() => 
         { document.getElementById('profile').innerHTML = '<img src="src/pfp2.png" alt="Profile Image" onclick="easterEgg()">'; }, 100);
 }
