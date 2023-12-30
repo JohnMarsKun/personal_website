@@ -310,6 +310,11 @@ li{
 
 
 /* CLOCK */
+
+.clock-container{
+    margin: 0 auto;
+}
+
 .clock {
     color: #98d6e9;
     font-size: 30px;
