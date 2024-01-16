@@ -1,5 +1,6 @@
 body {
     overflow: scroll;
+    overflow-x: hidden;
     margin: 0;
     position: relative;
     min-height: 100vh;
