@@ -53,10 +53,10 @@ function positionGif(gif) {
   function showFirstGif() {
     var gif = document.getElementById('gif');
     gif.src = 'src/MM1.gif';
-    gif.style.width = '41%'; // Original size
-    gif.style.height = '41%'; // Original size
+    gif.style.width = '25%'; // Original size
+    gif.style.height = '25%'; // Original size
     positionGif(gif);
-    // Set a timeout to show the second GIF after 6000 milliseconds
+    // Set a timeout to show the second GIF after 7000 milliseconds
     setTimeout(showSecondGif, 7000);
   }
   
@@ -64,8 +64,8 @@ function positionGif(gif) {
   function showSecondGif() {
     var gif = document.getElementById('gif');
     gif.src = 'src/MM2.gif';
-    gif.style.width = '26%'; // Smaller size
-    gif.style.height = '26%'; // Smaller size
+    gif.style.width = '16%'; // Smaller size
+    gif.style.height = '16%'; // Smaller size
     positionGif(gif);
     // Set a timeout to show the third GIF after 2000 milliseconds
     setTimeout(showFourthGif, 2000);
@@ -75,8 +75,8 @@ function positionGif(gif) {
   function showThirdGif() {
     var gif = document.getElementById('gif');
     gif.src = 'src/MM3.gif';
-    gif.style.width = '35%'; // Size for the third GIF
-    gif.style.height = '35%'; // Size for the third GIF
+    gif.style.width = '25%'; // Size for the third GIF
+    gif.style.height = '25%'; // Size for the third GIF
     positionGif(gif);
     // Set a timeout to show the fourth GIF after 485 milliseconds
     setTimeout(showFirstGif, 487);
@@ -86,8 +86,8 @@ function positionGif(gif) {
   function showFourthGif() {
     var gif = document.getElementById('gif');
     gif.src = 'src/MM4.gif';
-    gif.style.width = '28%';
-    gif.style.height = '28%';
+    gif.style.width = '18%';
+    gif.style.height = '18%';
     positionGif(gif);
     setTimeout(showFirstGif, 10000);
   }
