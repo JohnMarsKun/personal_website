@@ -116,6 +116,10 @@ const homeContent = `
                         </li>
 
                         <li>
+                        <a class="course" href="src/proj/SLproj4.pdf" target="_blank">Investigating cardiovascular data using penalized estimation, deep & ensemble learning combined with resampling techniques. Developing an AutoML software for model evaluation and employing numerical approaches to MLE using Fisher scoring <i class="fas fa-link"> </i> </a>
+                        </li>
+
+                        <li>
                         <a class="course" href="src/proj/PGMproj.pdf" target="_blank">Graphical Lasso - Graphical Learning of Sparse and Structured Biological Networks <i class="fas fa-link"> </i> </a>
                         </li>
 
