@@ -95,7 +95,7 @@ const homeContent = `
                 </div>
                 <div class="card" id="interests">
                     <h2>INTERESTS</h2>
-                    <p>Machine Learning, Statistics, Deep Learning, Bioinformatics, Generative Models, Econometrics, Mathematical Modeling, Dynamical Systems</p>
+                    <p>Machine Learning, Statistics & Causality, Deep Learning & Generative Models, Time Series & Econometrics, Bioinformatics, Mathematical Modeling, Dynamical Systems</p>
                 </div>
 
                 <div class="card" id="projects">
