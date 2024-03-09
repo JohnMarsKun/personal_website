@@ -192,6 +192,12 @@ function loadBookContent() {
                         <br>
                         <p>- <a class = "course" target = "_blank" href="https://hastie.su.domains/Papers/ESLII.pdf">Hastie, Trevor, et al. The elements of statistical learning: data mining, inference, and prediction. Vol. 2. New York: springer, 2009.</a> </p>
                         <br>
+                        <p>- <a class = "course" target = "_blank" href="https://probml.github.io/pml-book/book2.html">K. P. Murphy, Probabilistic Machine Learning: Advanced Topics, The MIT Press.</a> </p>
+                        <br>
+                        <p>- M. Kutner, C. Nachtsheim, J. Neter, W. Li, Applied Linear Statistical Models.</p>
+                        <br>
+                        <p>- Christian Kleiber , Achim Zeileis,  Applied Econometrics with R.</p>
+                        <br>
                         <p>- Koenker, Roger, et al., eds. "Handbook of quantile regression." (2017).</p>
                         <br>
                         <p>- Keener, Robert W. Theoretical statistics: Topics for a core course. Springer Science & Business Media, 2010.</p>
