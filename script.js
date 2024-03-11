@@ -57,9 +57,7 @@ const educationContent = `
                     <br>
                     <p>During my undergraduate studies,  I had the privilege of working under Dr. Y. Kamarianakis supervision. We focused on supervised classification problems, comparing traditional and innovative methods, and exploring non-parametric ensemble learning methods. This experience greatly enriched my understanding of machine-statistical learning.</p>
                     <br>
-                    <p>- MSc supervisor: <a class = "proj" target = "_blank" href="https://www.ioannistsamardinos.com">Ioannis Tsamardinos <i class="fas fa-link"></i> </a></p>
-                    <br>
-                    <p>In my master's, I collaborated with Dr. I. Tsamardinos on automated and meta machine learning, causal discovery, Bayesian networks and feature selection. My (ongoing) thesis involves developing a Python library with causal-based feature selection algorithms, incorporating both classic statistical methods (kernel-based hypothesis testing)  and modern information criteria like Akaike or Bayesian. This library holds great promise for the machine learning community.</p>
+                    <p>- MSc supervisor: TBA</p>                    
                 </div>
 `;
 
