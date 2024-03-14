@@ -55,9 +55,13 @@ const educationContent = `
                     <h2>SUPERVISION</h2>
                     <p>- BSc supervisor: <a class = "proj" target = "_blank" href="https://www.iacm.forth.gr/index.php/cb-profile/kamarian">Yiannis Kamarianakis <i class="fas fa-link"> </i></a> </p>
                     <br>
-                    <p>During my undergraduate studies,  I had the privilege of working under Dr. Y. Kamarianakis supervision. We focused on supervised classification problems, comparing traditional and innovative methods, and exploring non-parametric ensemble learning methods. This experience greatly enriched my understanding of machine-statistical learning.</p>
+                    <p>Topic: Statistical Learning.</p>
                     <br>
-                    <p>- MSc supervisor: TBA</p>                    
+                    <p>During my undergraduate studies,  I had the privilege of working under Dr. Y. Kamarianakis supervision. We focused on supervised classification problems, comparing traditional and innovative methods, and exploring non-parametric ensemble learning techniques. This experience greatly enriched my understanding of statistics & machine learning.</p>
+                    <br>
+                    <p>- MSc supervisor: <a class = "proj" target = "_blank" href="https://www.iacm.forth.gr/index.php/cb-profile/1006-yannis-pantazis">Yiannis Pantazis <i class="fas fa-link"> </i></a> </p>
+                    <br>
+                    <p>Topic: Deep Generative Models.</p>
                 </div>
 `;
 
