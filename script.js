@@ -113,13 +113,18 @@ const homeContent = `
                         </li>
 
                         <li>
-                        <a class="course" href="https://www.kaggle.com/datasets/mfaisalqureshi/newyork-air-quality" target="_blank">NewYork Air-Quality dataset analysis using Penalized estimation, Stepwise model building, Adaptive regression and Monte-Carlo experiments</a>
-                        <a class="course" href="src/proj/StatsLearn2.pdf" target="_blank">(part 1 <i class="fas fa-link"> </i>)</a> <a class="course" href="src/proj/StatsLearn3.pdf" target="_blank">(part 2 <i class="fas fa-link"> </i>)</a>
+                        <a class="course" href="src/proj/Time_Series_Assignment01-Ext.pdf" target="_blank"> Evaluating CO2 emission trends; forecasting solar irradiance in Hawaii using additive models with seasonal Indicators to harmonic ones, using Quantile regression and analyzing Traffic Volume and Occupancies in Athens using Distributed Lag Models <i class="fas fa-link"> </i> </a>
                         </li>
 
                         <li>
                         <a class="course" href="src/proj/SLproj4.pdf" target="_blank">Investigating cardiovascular data using penalized estimation, deep & ensemble learning combined with resampling techniques. Developing an AutoML software for model evaluation and employing numerical approaches to MLE using Fisher scoring <i class="fas fa-link"> </i> </a>
                         </li>
+
+                        <li>
+                        <a class="course" href="https://www.kaggle.com/datasets/mfaisalqureshi/newyork-air-quality" target="_blank">NewYork Air-Quality dataset analysis using Penalized estimation, Stepwise model building, Adaptive regression and Monte-Carlo experiments</a>
+                        <a class="course" href="src/proj/StatsLearn2.pdf" target="_blank">(part 1 <i class="fas fa-link"> </i>)</a> <a class="course" href="src/proj/StatsLearn3.pdf" target="_blank">(part 2 <i class="fas fa-link"> </i>)</a>
+                        </li>
+
 
                         <li>
                         <a class="course" href="src/proj/PGMproj.pdf" target="_blank">Graphical Lasso - Graphical Learning of Sparse and Structured Biological Networks <i class="fas fa-link"> </i> </a>
