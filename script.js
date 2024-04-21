@@ -47,9 +47,10 @@ const educationContent = `
                         <li> <a class = "course" target = "_blank" href="https://mscs.uoc.gr/damsl/courses/numerical-algorithms/">Numerical Algorithms (graduate)</a> </li>
                         <li> <a class = "course" target = "_blank" href="https://mscs.uoc.gr/damsl/courses/data-structures/">Data Structures (graduate)</a> </li>
                         <li>Parametric Statistical Inference</li>
-                        <li>Dynamical Systems</li>
-                        <li>Fourier Analysis</li>
+                        <li>Dynamical Systems & Chaos (advanced undergraduate)</li>
+                        <li>Fourier-Harmonic/Real/Complex/Functional Analysis (4 courses)</li>
                     </ul>
+                    Analytical coursework is available on my LinkedIn <i class="fab fa-linkedin"></i> profile.
                 </div>
                 <div class="card" id="education">
                     <h2>SUPERVISION</h2>
@@ -113,7 +114,7 @@ const homeContent = `
                         </li>
 
                         <li>
-                        <a class="course" href="src/proj/Time_Series_Assignment01-Ext.pdf" target="_blank"> Evaluating CO2 emission trends; forecasting solar irradiance in Hawaii using additive models with seasonal Indicators to harmonic ones, using Quantile regression and analyzing Traffic Volume and Occupancies in Athens using Distributed Lag Models <i class="fas fa-link"> </i> </a>
+                        <a class="course" href="src/proj/Time_Series_Assignment01-Ext.pdf" target="_blank"> Evaluating CO2 emission trends; forecasting solar irradiance in Hawaii using additive models with seasonal indicators to harmonic ones, using Quantile regression and analyzing Traffic Volume and Occupancies in Athens using Distributed Lag Models <i class="fas fa-link"> </i> </a>
                         </li>
 
                         <li>
