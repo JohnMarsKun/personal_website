@@ -112,6 +112,10 @@ const homeContent = `
                         <a class="course" href="src/proj/ICA2022_Tarou_Maris.pdf" target="_blank">Identification of Normal Modes in Underwater Acoustic Propagation using Convolutional Neural Networks <i class="fas fa-link"> </i> </a>                        
                         <a class="course" href="https://github.com/JohnMarsKun/JohnMarsKun/blob/main/mars_smar_CNN.ipynb" target="_blank"> (Code <i class="fab fa-python"></i> <i class="fab fa-github"></i>) </a>
                         </li>
+                        
+                        <li>
+                        <a class="course" href="src/proj/Time_Series_Assignment02.pdf" target="_blank"> 15-minute-ahead forecasting of Traffic Volumes time series using Occupancies and AR models: employing Koyck transformation, autoregressive distributed lag models, ARIMA & GARCH models for residuals  volatility correction; investigating forecast combination schemes using robust quantile regression <i class="fas fa-link"> </i> </a>
+                        </li>
 
                         <li>
                         <a class="course" href="src/proj/Time_Series_Assignment01.pdf" target="_blank"> Evaluating CO2 emission trends; forecasting solar irradiance in Hawaii using additive models with seasonal indicators to harmonic ones, using Quantile regression and analyzing Traffic Volume and Occupancies in Athens using Distributed Lag Models <i class="fas fa-link"> </i> </a>
