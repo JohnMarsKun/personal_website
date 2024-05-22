@@ -114,11 +114,11 @@ const homeContent = `
                         </li>
                         
                         <li>
-                        <a class="course" href="src/proj/Time_Series_Assignment02.pdf" target="_blank"> 15-minutes-ahead forecast of Traffic Volumes time series using Occupancies and AR models: employing Koyck transformation, autoregressive distributed lag models, ARIMA and GARCH models for residuals and volatility correction; investigating forecast combination schemes using robust quantile regression <i class="fas fa-link"> </i> </a>
+                        <a class="course" href="src/proj/Time_Series_Assignment02.pdf" target="_blank"> 15-minutes-ahead forecast of Traffic Volumes time series in Athens using Occupancies and AR models: employing Koyck transformation, autoregressive distributed lag models, ARIMA and GARCH models for residuals and volatility correction; investigating forecast combination schemes using robust quantile regression <i class="fas fa-link"> </i> </a>
                         </li>
 
                         <li>
-                        <a class="course" href="src/proj/Time_Series_Assignment01.pdf" target="_blank"> Evaluating CO2 emission trends; forecasting solar irradiance in Hawaii using additive models with seasonal indicators to harmonic ones, using Quantile regression and analyzing Traffic Volume and Occupancies in Athens using Distributed Lag Models <i class="fas fa-link"> </i> </a>
+                        <a class="course" href="src/proj/Time_Series_Assignment01.pdf" target="_blank"> Evaluating CO2 emission trends; forecasting solar irradiance in Hawaii using additive models with seasonal indicators to harmonic ones, using Quantile regression and analyzing Traffic Volumes using Distributed Lag Models <i class="fas fa-link"> </i> </a>
                         </li>
 
                         <li>
