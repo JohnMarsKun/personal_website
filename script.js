@@ -208,8 +208,6 @@ function loadBookContent() {
                         <br>  
                         <p>- Christopher M. Bishop, Hugh Bishop - Deep Learning Foundations and Concepts .</p>
                         <br>    
-                        <p>- Jonathan D. Cryer Kung-Sik Chan, Time Series Analysis with Applications in R.</p>
-                        <br>
                         <p>- Christian Kleiber , Achim Zeileis,  Applied Econometrics with R.</p>
                         <br>
                         <p>- Bruce E. Hansen, Econometrics, University of Wisconsin, Princeton University Press.</p>
