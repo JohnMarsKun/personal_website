@@ -58,11 +58,11 @@ const educationContent = `
                     <br>
                     <p>Topic: Statistical Learning.</p>
                     <br>
-                    <p>During my undergraduate studies,  I had the privilege of working under Dr. Y. Kamarianakis supervision. We focused on supervised classification problems, comparing traditional and innovative methods, and exploring non-parametric ensemble learning techniques. This experience greatly enriched my understanding of statistics & machine learning.</p>
+                    <p>During my undergraduate studies,  I had the privilege of working under Dr. Y. Kamarianakis supervision. We focused on generalized supervised classification problems, comparing traditional and innovative methods and exploring non-parametric ensemble learning techniques. This experience greatly enriched my understanding of statistics & machine learning.</p>
                     <br>
                     <p>- MSc supervisor: <a class = "proj" target = "_blank" href="https://www.iacm.forth.gr/index.php/cb-profile/1006-yannis-pantazis">Yiannis Pantazis <i class="fas fa-link"> </i></a> </p>
                     <br>
-                    <p>Topic: Deep Generative Models.</p>
+                    <p>Topic: Diffusion on language model embeddings using transformers for protein sequence generation. (Ongoing)</p>
                 </div>
 `;
 
@@ -92,7 +92,7 @@ function loadHomeContent() {
 const homeContent = `
                 <div class="card id="about-me">
                     <h2>ABOUT ME</h2>
-                    <p> Hi there! I'm John (Ioannis in Greek) Maris, and I currently live in Heraklion, Crete, Greece. I am deeply passionate about data science, machine learning, statistics and mathematics. I'm in the midst of my master's studies in Data Science and Machine Learning at the University of Crete and FORTH. Additionally, I'm working as a Teaching Assistant at the same university. The potential and future of this field excite me and I'm always open to learning new things. My motivation and what keeps me in the game is the fact that I never give up, no matter what the odds are. As we journey through life, the decisions we make are crucial. All we have to decide is what to do with the time that is given to us.</p>
+                    <p> Hi there! I'm John (Ioannis in Greek) Maris, and I currently live in Heraklion, Crete, Greece. I am deeply passionate about data science, machine learning, statistics and mathematics. I'm in the final stages of my master's studies in Data Science and Machine Learning at the University of Crete and FORTH. Additionally, I'm working as a Teaching Assistant at the same university. The potential and future of this field excite me and I'm always open to learning new things. My motivation and what keeps me in the game is the fact that I never give up, no matter what the odds are. As we journey through life, the decisions we make are crucial. All we have to decide is what to do with the time that is given to us.</p>
                     <br>
                     <p>&#9670; Full Résumé <a class = "proj" target = "_blank" href="src/proj/cvj.pdf">here <i class="fas fa-link"> </i></a></p>
                 </div>
@@ -205,11 +205,19 @@ function loadBookContent() {
                         <p>- <a class = "course" target = "_blank" href="https://hastie.su.domains/Papers/ESLII.pdf">Hastie, Trevor, et al. The elements of statistical learning: data mining, inference, and prediction. Vol. 2. New York: springer, 2009.</a> </p>
                         <br>
                         <p>- <a class = "course" target = "_blank" href="https://probml.github.io/pml-book/book2.html">K. P. Murphy, Probabilistic Machine Learning: Advanced Topics, The MIT Press.</a> </p>
-                        <br>
-                        <p>- M. Kutner, C. Nachtsheim, J. Neter, W. Li, Applied Linear Statistical Models.</p>
+                        <br>  
+                        <p>- Christopher M. Bishop, Hugh Bishop - Deep Learning Foundations and Concepts .</p>
+                        <br>    
+                        <p>- Jonathan D. Cryer Kung-Sik Chan, Time Series Analysis with Applications in R.</p>
                         <br>
                         <p>- Christian Kleiber , Achim Zeileis,  Applied Econometrics with R.</p>
                         <br>
+                        <p>- Bruce E. Hansen, Econometrics, University of Wisconsin, Princeton University Press.</p>
+                        <br>    
+                        <p>- Andrew V. Metcalfe , Paul S.P. Cowpertwait, Introductory Time Series with R.</p>
+                        <br>    
+                        <p>- Jonathan D. Cryer Kung-Sik Chan, Time Series Analysis with Applications in R.</p>
+                        <br>    
                         <p>- Koenker, Roger, et al., eds. "Handbook of quantile regression." (2017).</p>
                         <br>
                         <p>- Keener, Robert W. Theoretical statistics: Topics for a core course. Springer Science & Business Media, 2010.</p>
