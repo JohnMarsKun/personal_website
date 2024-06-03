@@ -25,6 +25,29 @@
     </script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script src="script.js"></script>
+    <style>
+        .profile {
+            position: relative;
+        }
+        .profile img {
+            position: relative;
+            z-index: 1;
+            border-radius: 16px;
+        }
+        .profile::before {
+            content: '';
+            position: absolute;
+            top: 20px;
+            left: -20px;
+            width: 115%;
+            height: 110%;
+            background: url('src/tsg3.gif') no-repeat center center;
+            background-size: cover;
+            border-radius: 16px;
+            opacity: 0.766;
+            z-index: 0;
+        }
+    </style>
 </head>
 
 <body>
@@ -91,9 +114,9 @@
                     <img src="src/diffmodel.gif" alt="diff_model" style="max-width: 104%; border-radius: 16px; opacity: .85656;">
                 </div>
 
-                <div>
+<!--                 <div>
                     <img src="src/tsg.gif" alt="diff_model" style="max-width: 113%; border-radius: 16px; opacity: .85656;">
-                </div>
+                </div> -->
                 
                 
             </div>
