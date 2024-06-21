@@ -105,12 +105,7 @@ const homeContent = `
                     <h2>PROJECTS/PUBLICATIONS</h2>
                     <ul>
                         <li>
-                        <a class="course" href="src/proj/B_Sc_Thesis.pdf" target="_blank">Bachelor's Thesis: Supervised Classification with Parametric Models <i class="fas fa-link"> </i></a>
-                        </li>
-
-                        <li>
-                        <a class="course" href="src/proj/ICA2022_Tarou_Maris.pdf" target="_blank">Identification of Normal Modes in Underwater Acoustic Propagation using Convolutional Neural Networks <i class="fas fa-link"> </i> </a>                        
-                        <a class="course" href="https://github.com/JohnMarsKun/JohnMarsKun/blob/main/mars_smar_CNN.ipynb" target="_blank"> (Code <i class="fab fa-python"></i> <i class="fab fa-github"></i>) </a>
+                        <a class="course" href="src/proj/DeepGenAI_Project.pdf" target="_blank">DiMA Protein Design: Generating Antimicrobial Peptides using Diffusion Models <i class="fas fa-link"> </i></a>
                         </li>
                         
                         <li>
@@ -119,6 +114,15 @@ const homeContent = `
 
                         <li>
                         <a class="course" href="src/proj/Time_Series_Assignment01.pdf" target="_blank"> Evaluating CO2 emission trends; forecasting solar irradiance in Hawaii using additive models with seasonal indicators to harmonic ones, using Quantile regression and analyzing Traffic Volumes using Distributed Lag Models <i class="fas fa-link"> </i> </a>
+                        </li>
+
+                        <li>
+                        <a class="course" href="src/proj/B_Sc_Thesis.pdf" target="_blank">Bachelor's Thesis: Supervised Classification with Parametric Models <i class="fas fa-link"> </i></a>
+                        </li>
+
+                        <li>
+                        <a class="course" href="src/proj/ICA2022_Tarou_Maris.pdf" target="_blank">Identification of Normal Modes in Underwater Acoustic Propagation using Convolutional Neural Networks <i class="fas fa-link"> </i> </a>                        
+                        <a class="course" href="https://github.com/JohnMarsKun/JohnMarsKun/blob/main/mars_smar_CNN.ipynb" target="_blank"> (Code <i class="fab fa-python"></i> <i class="fab fa-github"></i>) </a>
                         </li>
 
                         <li>
