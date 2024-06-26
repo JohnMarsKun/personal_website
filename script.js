@@ -105,43 +105,43 @@ const homeContent = `
                     <h2>PROJECTS/PUBLICATIONS</h2>
                     <ul>
                         <li>
-                        <a class="course" href="src/proj/DeepGenAI_Project.pdf" target="_blank">DiMA Protein Design: Generating Antimicrobial Peptides using Diffusion Models <i class="fas fa-link"> </i></a>
+                        <a class="link" href="src/proj/DeepGenAI_Project.pdf" target="_blank">DiMA Protein Design: Generating Antimicrobial Peptides using Diffusion Models <i class="fas fa-link"> </i></a>
                         </li>
                         
                         <li>
-                        <a class="course" href="src/proj/Time_Series_Assignment02.pdf" target="_blank"> 15-minutes-ahead forecast of Traffic Volumes time series in Athens using Occupancies and AR models: employing Koyck transformation, autoregressive distributed lag models, ARIMA and GARCH models for residuals and volatility correction; investigating forecast combination schemes using robust quantile regression <i class="fas fa-link"> </i> </a>
+                        <a class="link" href="src/proj/Time_Series_Assignment02.pdf" target="_blank"> 15-minutes-ahead forecast of Traffic Volumes time series in Athens using Occupancies and AR models: employing Koyck transformation, autoregressive distributed lag models, ARIMA and GARCH models for residuals and volatility correction; investigating forecast combination schemes using robust quantile regression <i class="fas fa-link"> </i> </a>
                         </li>
 
                         <li>
-                        <a class="course" href="src/proj/Time_Series_Assignment01.pdf" target="_blank"> Evaluating CO2 emission trends; forecasting solar irradiance in Hawaii using additive models with seasonal indicators to harmonic ones, using Quantile regression and analyzing Traffic Volumes using Distributed Lag Models <i class="fas fa-link"> </i> </a>
+                        <a class="link" href="src/proj/Time_Series_Assignment01.pdf" target="_blank"> Evaluating CO2 emission trends; forecasting solar irradiance in Hawaii using additive models with seasonal indicators to harmonic ones, using Quantile regression and analyzing Traffic Volumes using Distributed Lag Models <i class="fas fa-link"> </i> </a>
                         </li>
 
                         <li>
-                        <a class="course" href="src/proj/B_Sc_Thesis.pdf" target="_blank">Bachelor's Thesis: Supervised Classification with Parametric Models <i class="fas fa-link"> </i></a>
+                        <a class="link" href="src/proj/B_Sc_Thesis.pdf" target="_blank">Bachelor's Thesis: Supervised Classification with Parametric Models <i class="fas fa-link"> </i></a>
                         </li>
 
                         <li>
-                        <a class="course" href="src/proj/ICA2022_Tarou_Maris.pdf" target="_blank">Identification of Normal Modes in Underwater Acoustic Propagation using Convolutional Neural Networks <i class="fas fa-link"> </i> </a>                        
-                        <a class="course" href="https://github.com/JohnMarsKun/JohnMarsKun/blob/main/mars_smar_CNN.ipynb" target="_blank"> (Code <i class="fab fa-python"></i> <i class="fab fa-github"></i>) </a>
+                        <a class="link" href="src/proj/ICA2022_Tarou_Maris.pdf" target="_blank">Identification of Normal Modes in Underwater Acoustic Propagation using Convolutional Neural Networks <i class="fas fa-link"> </i> </a>                        
+                        <a class="link" href="https://github.com/JohnMarsKun/JohnMarsKun/blob/main/mars_smar_CNN.ipynb" target="_blank"> (Code <i class="fab fa-python"></i> <i class="fab fa-github"></i>) </a>
                         </li>
 
                         <li>
-                        <a class="course" href="src/proj/SLproj4.pdf" target="_blank">Investigating cardiovascular data using penalized estimation, deep & ensemble learning combined with resampling techniques. Developing an AutoML software for model evaluation and employing numerical approaches to MLE using Fisher scoring <i class="fas fa-link"> </i> </a>
+                        <a class="link" href="src/proj/SLproj4.pdf" target="_blank">Investigating cardiovascular data using penalized estimation, deep & ensemble learning combined with resampling techniques. Developing an AutoML software for model evaluation and employing numerical approaches to MLE using Fisher scoring <i class="fas fa-link"> </i> </a>
                         </li>
 
                         <li>
-                        <a class="course" href="https://www.kaggle.com/datasets/mfaisalqureshi/newyork-air-quality" target="_blank">NewYork Air-Quality dataset analysis using Penalized estimation, Stepwise model building, Adaptive regression and Monte-Carlo experiments</a>
-                        <a class="course" href="src/proj/StatsLearn2.pdf" target="_blank">(part 1 <i class="fas fa-link"> </i>)</a> <a class="course" href="src/proj/StatsLearn3.pdf" target="_blank">(part 2 <i class="fas fa-link"> </i>)</a>
+                        <a class="link" href="https://www.kaggle.com/datasets/mfaisalqureshi/newyork-air-quality" target="_blank">NewYork Air-Quality dataset analysis using Penalized estimation, Stepwise model building, Adaptive regression and Monte-Carlo experiments</a>
+                        <a class="link" href="src/proj/StatsLearn2.pdf" target="_blank">(part 1 <i class="fas fa-link"> </i>)</a> <a class="course" href="src/proj/StatsLearn3.pdf" target="_blank">(part 2 <i class="fas fa-link"> </i>)</a>
                         </li>
 
 
                         <li>
-                        <a class="course" href="src/proj/PGMproj.pdf" target="_blank">Graphical Lasso - Graphical Learning of Sparse and Structured Biological Networks <i class="fas fa-link"> </i> </a>
+                        <a class="link" href="src/proj/PGMproj.pdf" target="_blank">Graphical Lasso - Graphical Learning of Sparse and Structured Biological Networks <i class="fas fa-link"> </i> </a>
                         </li>
 
                         <li>
-                        <a class="course" href="src/proj/CS577proj.pdf" target="_blank">Causal-Based Feature Selection with Kernel-Based Conditional Independence Tests <i class="fas fa-link"> </i> </a>
-                        <a class="course" href="https://github.com/JohnMarsKun/JohnMarsKun/blob/main/BC_Causal_Models.ipynb" target="_blank"> (Code <i class="fab fa-python"></i> <i class="fab fa-github"></i>)</a>
+                        <a class="link" href="src/proj/CS577proj.pdf" target="_blank">Causal-Based Feature Selection with Kernel-Based Conditional Independence Tests <i class="fas fa-link"> </i> </a>
+                        <a class="link" href="https://github.com/JohnMarsKun/JohnMarsKun/blob/main/BC_Causal_Models.ipynb" target="_blank"> (Code <i class="fab fa-python"></i> <i class="fab fa-github"></i>)</a>
                         </li>
                     </ul>
                 </div>
