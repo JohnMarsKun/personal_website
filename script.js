@@ -279,7 +279,9 @@ document.onreadystatechange = function () {
 
     if (document.readyState !== "complete") {
         setTimeout(function() {
-            document.getElementById("loading-screen").style.opacity = "1";
+            if (document.readyState !== "complete") {
+                document.getElementById("loading-screen").style.opacity = "1";
+            }
         }, 300);
     } else {
         document.getElementById("loading-screen").style.opacity = "0";
