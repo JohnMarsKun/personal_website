@@ -268,7 +268,24 @@ function loadBookContent() {
 // Call loadHomeContent and fade in body when page loads
 window.onload = function() {
     loadHomeContent();
-    document.body.style.opacity= '1';
+};
+
+document.onreadystatechange = function () {
+  // if doc not ready
+        //wait (so we dont have unnecessary loading screen)
+            // show loading screen
+  // else
+        // remove loading screen, show content
+
+    if (document.readyState !== "complete") {
+        setTimeout(function() {
+            document.getElementById("loading-screen").style.opacity = "1";
+        }, 300);
+    } else {
+        document.getElementById("loading-screen").style.opacity = "0";
+        document.getElementById("loading-screen").style.display = "none";
+        document.getElementById("content-wrap").style.opacity = "1";
+    }
 };
 
 //
