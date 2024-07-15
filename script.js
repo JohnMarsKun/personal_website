@@ -270,25 +270,24 @@ window.onload = function() {
     loadHomeContent();
 };
 
-document.onreadystatechange = function () {
-  // if doc not ready
-        //wait (so we dont have unnecessary loading screen)
-            // show loading screen
-  // else
-        // remove loading screen, show content
+document.addEventListener("DOMContentLoaded", function() {
+    const loadingScreen = document.getElementById('loading-screen');
+    const contentWrap = document.getElementById('content-wrap');
 
-    if (document.readyState !== "complete") {
-        setTimeout(function() {
-            if (document.readyState !== "complete") {
-                document.getElementById("loading-screen").style.opacity = "1";
-            }
-        }, 300);
-    } else {
-        document.getElementById("loading-screen").style.opacity = "0";
-        document.getElementById("loading-screen").style.display = "none";
-        document.getElementById("content-wrap").style.opacity = "1";
-    }
-};
+    // Set initial opacity for loading screen if page hasn't loaded in 300ms
+    setTimeout(function() {
+        if (!document.body.classList.contains('loaded')) {
+            loadingScreen.style.opacity = '1';
+        }
+    }, 300);
+
+    // Once the page is fully loaded
+    window.addEventListener('load', function() {
+        document.body.classList.add('loaded');
+        loadingScreen.style.opacity = '0';
+        contentWrap.style.opacity = '1';
+    });
+});
 
 //
 function easterEgg() {
