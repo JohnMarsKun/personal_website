@@ -41,7 +41,7 @@ function loadHomeContent() {
                 </div>
                 <div class="card" id="interests">
                     <h2>INTERESTS</h2>
-                    <p>Machine Learning, Statistics & Causality, Deep Learning & Generative Models, Time Series & Econometrics, Bioinformatics, Mathematical Modeling, Dynamical Systems.</p>
+                    <p>Machine Learning,  Natural Language Processing & Deep Generative AI, Statistics & Causality, Time Series & Econometrics, Bioinformatics, Big Data, Mathematical Modeling, Dynamical Systems.</p>
                 </div>
 
                 <div class="card" id="projects">
