@@ -1,7 +1,6 @@
 
 function loadContent(contentId) {
     const contents2 = document.getElementById('contents2');
-    
     switch (contentId) {
         case 'home':
             document.getElementsByClassName("current")[0].className = "not-current";
