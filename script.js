@@ -1,35 +1,50 @@
+
 function loadContent(contentId) {
     const contents2 = document.getElementById('contents2');
     
     switch (contentId) {
         case 'home':
             document.getElementsByClassName("current")[0].className = "not-current";
-            console.log(document.getElementById("eduNav").className);
             document.getElementById("homeNav").className = "current flicker-anim";
             loadHomeContent();
+            shouldIscroll();
             break;
         case 'education':
           document.getElementsByClassName("current")[0].className = "not-current";
             document.getElementById("eduNav").className = "current flicker-anim";
             loadEducationContent();
+            shouldIscroll();
             break;
         case 'experience':
           document.getElementsByClassName("current")[0].className = "not-current";
             document.getElementById("expNav").className = "current flicker-anim";
             loadExperienceContent();
+            shouldIscroll();
             break;
         case 'books':
           document.getElementsByClassName("current")[0].className = "not-current";
             document.getElementById("booksNav").className = "current flicker-anim";
             loadBookContent();
+            shouldIscroll();
             break;
         default:
             console.error('Invalid content ID:', contentId);
     }
-  }
+
+}
   
+function shouldIscroll(){
+    var mediaQuery = window.matchMedia('(max-width: 768px)')
+
+    if (mediaQuery.matches) {
+        //window.scrollTo(0, 1050);
+        document.getElementById("contents2").scrollIntoView();
+    }
+
+}
+
 function loadEducationContent() {
-const educationContent = `
+    const educationContent = `
                 <div class="card" id="education">
                     <h2>ACADEMIC EDUCATION</h2>
                     <p>- MSc Data Analysis & Machine-Statistical Learning 2023-2025 (90 ECTS) at <a class = "course" target = "_blank" href="https://www.forth.gr/en/home/">FORTH</a></p>
@@ -64,32 +79,33 @@ const educationContent = `
                     <br>
                     <p>Topic: Diffusion on language model embeddings using transformers for protein sequence generation. (Ongoing)</p>
                 </div>
-`;
+    `;
 
-// Get the "EXPERIENCE" button's position
-var expButton = document.getElementById('eduNav');
-var rect = expButton.getBoundingClientRect();
+    // Get the "EXPERIENCE" button's position
+    var expButton = document.getElementById('eduNav');
+    var rect = expButton.getBoundingClientRect();
 
-// Show the nika gif at the button's position (when the button is clicked)
-var lnikaGif = document.getElementById('lnikaGifedu');
-lnikaGif.style.display = 'block'; // Make the GIF visible
-lnikaGif.style.left = rect.left + 35 + 'px'; // Position horizontally
-lnikaGif.style.top = (rect.top + rect.height - 8) + 'px'; // Position vertically just below the button
+    // Show the nika gif at the button's position (when the button is clicked)
+    var lnikaGif = document.getElementById('lnikaGifedu');
+    lnikaGif.style.display = 'block'; // Make the GIF visible
+    lnikaGif.style.left = rect.left + 35 + 'px'; // Position horizontally
+    lnikaGif.style.top = (rect.top + rect.height - 8) + 'px'; // Position vertically just below the button
 
-document.getElementById('contents2').innerHTML = educationContent;
+    document.getElementById('contents2').innerHTML = educationContent;
 
-// Hide the GIF
-setTimeout(function() {
-    lnikaGif.style.opacity = '0';
-    // Wait for the transition to finish before hiding the element
+    // Hide the GIF
     setTimeout(function() {
-        lnikaGif.style.display = 'none';
-    }, 1000); // Wait an additional 1 second for the fade-out transition
-}, 2000);
+        lnikaGif.style.opacity = '0';
+        // Wait for the transition to finish before hiding the element
+        setTimeout(function() {
+            lnikaGif.style.display = 'none';
+        }, 1000); // Wait an additional 1 second for the fade-out transition
+    }, 2000);
+
 }
 
 function loadHomeContent() {
-const homeContent = `
+    const homeContent = `
                 <div class="card id="about-me">
                     <h2>ABOUT ME</h2>
                     <p> Hi there! I'm John (Ioannis in Greek) Maris, and I currently live in Heraklion, Crete, Greece. I am deeply passionate about data science, machine learning, statistics and mathematics. I'm in the final stages of my master's studies in Data Science and Machine Learning at the University of Crete and FORTH. Additionally, I'm working as a Teaching Assistant at the same university. The potential and future of this field excite me and I'm always open to learning new things. My motivation and what keeps me in the game is the fact that I never give up, no matter what the odds are. As we journey through life, the decisions we make are crucial. All we have to decide is what to do with the time that is given to us.</p>
@@ -146,12 +162,11 @@ const homeContent = `
                     </ul>
                 </div>
 
-`;
+    `;
 
 
-document.getElementById('contents2').innerHTML = homeContent;
+    document.getElementById('contents2').innerHTML = homeContent;
 }
-
 
 function loadExperienceContent() {
     const ExperienceContent = `
@@ -262,32 +277,16 @@ function loadBookContent() {
             lnikaGif.style.display = 'none';
         }, 1000); // Wait an additional 1 second for the fade-out transition
     }, 2000);
+
 }
     
 
 // Call loadHomeContent and fade in body when page loads
 window.onload = function() {
     loadHomeContent();
-};
-
-document.addEventListener("DOMContentLoaded", function() {
-    const loadingScreen = document.getElementById('loading-screen');
-    const contentWrap = document.getElementById('content-wrap');
-
-    // Set initial opacity for loading screen if page hasn't loaded in 300ms
-    setTimeout(function() {
-        if (!document.body.classList.contains('loaded')) {
-            loadingScreen.style.opacity = '1';
-        }
-    }, 300);
-
-    // Once the page is fully loaded
-    window.addEventListener('load', function() {
-        document.body.classList.add('loaded');
-        loadingScreen.style.opacity = '0';
-        contentWrap.style.opacity = '1';
-    });
-});
+    window.scrollTo(0, 0);
+    document.getElementById("content-wrap").style.opacity = '1';
+}
 
 //
 function easterEgg() {

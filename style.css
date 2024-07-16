@@ -241,6 +241,7 @@ li{
 
 .card{
     padding:4%;
+    padding-top: 3%;
     /*background: rgba(3, 13, 18, 0.75);*/
     background-image: url("src/cardbg.png");
     background-repeat: no-repeat;
@@ -314,11 +315,15 @@ li{
     height: 2.5rem;            /* Footer height */
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
     .contents-flexbox{
       flex-direction: column;
+      padding-bottom: 40px;
+      margin: 0;
     }
-
+    .footer{
+        padding-bottom: 40px;
+    }
     .card {
         width: auto;
     }
@@ -327,7 +332,25 @@ li{
         width: auto;
         height: auto;
     }
-  }
+
+    .header{
+        padding-inline: 0;
+        margin: 0 auto;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 998;
+        box-shadow: 0 0 10px 0 black;
+        background: url("src/cardbg.png");
+        margin: 0;
+    }
+    nav ul li{
+        margin-inline: 5px;
+    }
+    nav a {
+        font-size: 3.2vw;
+    }
+}
 
 
 /* CLOCK */

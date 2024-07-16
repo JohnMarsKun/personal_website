@@ -30,23 +30,16 @@ function showTime(){
 showTime();
 
 
-/* Switch clock Animation */
-
-// Switch clock Animation
-
-// Helper function to position the GIF randomly
+// random gif positions
 function positionGif(gif) {
-    var maxheight = document.getElementById('profile').clientHeight - 90;
-    var maxwidth = document.getElementById('profile').clientWidth - 90;
-  
-    // Generate a random position within the container
-    var randomLeft = Math.floor(Math.random() * maxwidth);
-    var randomTop = Math.floor(Math.random() * maxheight);
-  
-    gif.style.left = randomLeft + 'px';
-    gif.style.top = randomTop + 'px';
-    gif.style.position = 'absolute';
-  }
+
+  // Generate a random position within the container
+  var randomLeft = Math.random() * 100;
+  var randomTop = Math.random() * 70;
+
+  gif.style.left = randomLeft + '%';
+  gif.style.top = randomTop + '%';
+}
   
   
   // Function to show the first GIF and set a timeout to show the second GIF
