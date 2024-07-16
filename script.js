@@ -81,26 +81,7 @@ function loadEducationContent() {
                 </div>
     `;
 
-    // Get the "EXPERIENCE" button's position
-    var expButton = document.getElementById('eduNav');
-    var rect = expButton.getBoundingClientRect();
-
-    // Show the nika gif at the button's position (when the button is clicked)
-    var lnikaGif = document.getElementById('lnikaGifedu');
-    lnikaGif.style.display = 'block'; // Make the GIF visible
-    lnikaGif.style.left = rect.left + 35 + 'px'; // Position horizontally
-    lnikaGif.style.top = (rect.top + rect.height - 8) + 'px'; // Position vertically just below the button
-
     document.getElementById('contents2').innerHTML = educationContent;
-
-    // Hide the GIF
-    setTimeout(function() {
-        lnikaGif.style.opacity = '0';
-        // Wait for the transition to finish before hiding the element
-        setTimeout(function() {
-            lnikaGif.style.display = 'none';
-        }, 1000); // Wait an additional 1 second for the fade-out transition
-    }, 2000);
 
 }
 
@@ -195,24 +176,9 @@ function loadExperienceContent() {
     `;
     // Get the "EXPERIENCE" button's position
     var expButton = document.getElementById('expNav');
-    var rect = expButton.getBoundingClientRect();
-
-    // Show the nika gif at the button's position (when the button is clicked)
-    var lnikaGif = document.getElementById('lnikaGifexp');
-    lnikaGif.style.display = 'block'; // Make the GIF visible
-    lnikaGif.style.left = rect.left + 35 + 'px'; // Position horizontally
-    lnikaGif.style.top = (rect.top + rect.height - 8) + 'px'; // Position vertically just below the button
 
     document.getElementById('contents2').innerHTML = ExperienceContent;
 
-    // Hide the GIF
-    setTimeout(function() {
-        lnikaGif.style.opacity = '0';
-        // Wait for the transition to finish before hiding the element
-        setTimeout(function() {
-            lnikaGif.style.display = 'none';
-        }, 1000); // Wait an additional 1 second for the fade-out transition
-    }, 2000);
 }
 
 function loadBookContent() {
@@ -258,25 +224,11 @@ function loadBookContent() {
 
     // Get the "book" button's position
     var expButton = document.getElementById('booksNav');
-    var rect = expButton.getBoundingClientRect();
-
-    // Show the nika gif at the button's position (when the button is clicked)
-    var lnikaGif = document.getElementById('lnikaGifbooks');
-    lnikaGif.style.display = 'block'; // Make the GIF visible
-    lnikaGif.style.left = rect.left + 35 + 'px'; // Position horizontally
-    lnikaGif.style.top = (rect.top + rect.height - 8) + 'px'; // Position vertically just below the button
 
     document.getElementById('contents2').innerHTML = BookContent;
 
 
-    // Hide the GIF
-    setTimeout(function() {
-        lnikaGif.style.opacity = '0';
-        // Wait for the transition to finish before hiding the element
-        setTimeout(function() {
-            lnikaGif.style.display = 'none';
-        }, 1000); // Wait an additional 1 second for the fade-out transition
-    }, 2000);
+
 
 }
 
@@ -296,7 +248,6 @@ function noGifsOnMobile() {
 // Call loadHomeContent and fade in body when page loads
 window.onload = function() {
     loadHomeContent();
-    noGifsOnMobile();
     window.scrollTo(0, 0);
     document.getElementById("content-wrap").style.opacity = '1';
 }
