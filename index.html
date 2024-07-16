@@ -2,8 +2,6 @@
 
 <html lang="en">
 
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -69,7 +67,7 @@
             </div>
         </div>
 
-        <div class="contents-flexbox" id="mainContent">
+        <div class="contents-flexbox" id="mainContent" style="opacity: 0; transition: opacity .4s;">
             <div class="contents">
                 <div class="home card">
 
@@ -114,6 +112,8 @@
         
     </div>
     <br>
+    <script>document.getElementById("mainContent").style.opacity='1';</script>
+
     
     <footer class="footer">
         <hr style="margin: 20px; color: rgb(0, 0, 0);margin-top: 0px;margin-bottom: 5px;">

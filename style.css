@@ -23,7 +23,7 @@ body {
     
     opacity: 1;
 }
-#content-wrap{
+#contents2{
     opacity: 0;
     transition: opacity .5s;
 }

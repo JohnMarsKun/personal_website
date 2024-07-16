@@ -283,11 +283,11 @@ function noGifsOnMobile() {
     var mediaQuery = window.matchMedia('(max-width: 768px)')
     if (!mediaQuery.matches){
         document.getElementsByClassName("contents")[0].innerHTML += `<div>
-        <img src="src/diffmodel.gif" alt="diff_model" style="max-width: 104%; border-radius: 16px; opacity: .915656;">
+        <img class="defer-gif" src="src/placeholder.png" data-src="src/diffmodel.gif" alt="diff_model" style="max-width: 104%; border-radius: 16px; opacity: .915656;">
         </div>
 
         <div style="margin-left: 150px;">
-        <img src="src/alphafold3.gif" alt="alphafold3Protein" style="max-width: 55%; border-radius: 16px; opacity: .27;" >
+        <img class="defer-gif" src="src/placeholder.png" data-src="src/alphafold3.gif" alt="alphafold3Protein" style="max-width: 55%; border-radius: 16px; opacity: .27;" >
         </div>`;
     }
 }    
@@ -297,7 +297,7 @@ window.onload = function() {
     loadHomeContent();
     noGifsOnMobile();
     window.scrollTo(0, 0);
-    document.getElementById("content-wrap").style.opacity = '1';
+    document.getElementById("contents2").style.opacity = '1';
 }
 
 //
