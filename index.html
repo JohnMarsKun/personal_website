@@ -6,7 +6,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="preload" href="src/bgimgdark.webp" as="image">
+    <link rel="preload" href="src/bgimgdark.webp" fetchpriority="high" as="image">
+    <link rel="preload" href="src/cardbg.png" fetchpriority="high" as="image">
+    <link rel="preload" href="src/pfp2.webp" fetchpriority="high" as="image">
+    <link rel="preload" href="src/easter_egg.png" as="image">
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
@@ -22,29 +25,6 @@
     </script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script src="script.js"></script>
-    <style>
-        .profile {
-            position: relative;
-        }
-        .profile img {
-            position: relative;
-            z-index: 1;
-            border-radius: 16px;
-        }
-        .profile::before {
-            content: '';
-            position: absolute;
-            top: 20px;
-            left: -20px;
-            width: 115%;
-            height: 110%;
-            background: url('src/tsg3.gif') no-repeat center center;
-            background-size: cover;
-            border-radius: 16px;
-            opacity: 0.766;
-            z-index: 0;
-        }
-    </style>
 </head>
 
 <body>
@@ -72,7 +52,7 @@
                 <div class="home card">
 
                     <div class="profile" id="profile" onclick="easterEgg()">
-                        <img src="src/pfp2.png" alt="Profile Image">
+                        <img src="src/pfp2.webp" alt="Profile Image">
                     </div>
                     <div class="info">
                         <div>
@@ -112,15 +92,17 @@
         
     </div>
     <br>
-    <script>document.getElementById("mainContent").style.opacity='1';</script>
 
-    
     <footer class="footer">
         <hr style="margin: 20px; color: rgb(0, 0, 0);margin-top: 0px;margin-bottom: 5px;">
         John Maris 2024
     </footer>
 
     <script>
+         setTimeout(function() {
+            document.getElementById("mainContent").style.opacity = '1';
+        }, 100);
+
         window.addEventListener('load', function() {
           var gifs = document.querySelectorAll('.defer-gif');
           gifs.forEach(function(gif) {

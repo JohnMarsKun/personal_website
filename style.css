@@ -23,6 +23,27 @@ body {
     
     opacity: 1;
 }
+.profile {
+    position: relative;
+}
+.profile img {
+    position: relative;
+    z-index: 1;
+    border-radius: 16px;
+}
+.profile::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    width: 115%;
+    height: 110%;
+    background: url('src/tsg3.gif') no-repeat center center;
+    background-size: cover;
+    border-radius: 16px;
+    opacity: 0.766;
+    z-index: 0;
+}
 #contents2{
     opacity: 0;
     transition: opacity .5s;
