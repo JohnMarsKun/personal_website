@@ -279,11 +279,24 @@ function loadBookContent() {
     }, 2000);
 
 }
-    
+
+function noGifsOnMobile() {
+    var mediaQuery = window.matchMedia('(max-width: 768px)')
+    if (!mediaQuery.matches){
+        document.getElementsByClassName("contents")[0].innerHTML += `<div>
+        <img src="src/diffmodel.gif" alt="diff_model" style="max-width: 104%; border-radius: 16px; opacity: .915656;">
+        </div>
+
+        <div style="margin-left: 150px;">
+        <img src="src/alphafold3.gif" alt="alphafold3Protein" style="max-width: 55%; border-radius: 16px; opacity: .27;" >
+        </div>`;
+    }
+}    
 
 // Call loadHomeContent and fade in body when page loads
 window.onload = function() {
     loadHomeContent();
+    noGifsOnMobile();
     window.scrollTo(0, 0);
     document.getElementById("content-wrap").style.opacity = '1';
 }
