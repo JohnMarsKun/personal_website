@@ -158,7 +158,7 @@ function loadEducationContent() {
                     <br>
                     <p>- MSc supervisor: <a class = "proj" target = "_blank" href="https://www.iacm.forth.gr/index.php/cb-profile/1006-yannis-pantazis">Yiannis Pantazis <i class="fas fa-link"> </i></a> </p>
                     <br>
-                    <p>Topic: Diffusion on language model embeddings using transformers for protein sequence generation. (Ongoing)</p>
+                    <p>Topic: Generative AI in Protein Engineering using Large Language Diffusion Models. (Ongoing)</p>
                 </div>
     `;
 
@@ -202,6 +202,17 @@ function loadExperienceContent() {
 
                     <div class="card" id="education">
                         <h2>INDUSTRY EXPERIENCE</h2>
+                        <p>- <a class = "proj" target = "_blank" href="https://www.toyota-europe.com">Toyota Motor Europe: BEV Range Internship - Brussels, Zaventem (R&D)</a> (Dec. 2024 - July 2025) </p>
+                        <br>
+                        <p>Skills</p>
+                        <ul>
+                            <li>Data Science & Machine Learning</li>
+                            <li>Poetry Python, Git, Big Data</li>
+                            <li>Electric Powetrain System</li>
+                            <li>BEV System Energy Flow & Breakdown</li>
+                            <li>Compute & Display Range Breakdown and Recommendation</li>
+                        </ul>
+                        <br>
                         <p>- <a class = "proj" target = "_blank" href="https://www.iacm.forth.gr/divisions/numerical-analysis-computational-systems/data-science">Statistical Learning Internship</a> at FORTH (Dec. 2022 - July 2023) </p>
                         <br>
                         <p>Skills</p>
