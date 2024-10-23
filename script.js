@@ -62,7 +62,7 @@ const educationContent = `
                     <br>
                     <p>- MSc supervisor: <a class = "proj" target = "_blank" href="https://www.iacm.forth.gr/index.php/cb-profile/1006-yannis-pantazis">Yiannis Pantazis <i class="fas fa-link"> </i></a> </p>
                     <br>
-                    <p>Topic: Diffusion on language model embeddings using transformers for protein sequence generation. (Ongoing)</p>
+                    <p>Topic: Generative AI in Protein Engineering using Large Language Diffusion Models. (Ongoing)</p>
                 </div>
 `;
 
@@ -92,7 +92,7 @@ function loadHomeContent() {
 const homeContent = `
                 <div class="card id="about-me">
                     <h2>ABOUT ME</h2>
-                    <p> Hi there! I'm John (Ioannis in Greek) Maris, and I currently live in Heraklion, Crete, Greece. I am deeply passionate about data science, machine learning, statistics and mathematics. I'm in the final stages of my master's studies in Data Science and Machine Learning at the University of Crete and FORTH. Additionally, I'm working as a Teaching Assistant at the same university. The potential and future of this field excite me and I'm always open to learning new things. My motivation and what keeps me in the game is the fact that I never give up, no matter what the odds are. As we journey through life, the decisions we make are crucial. All we have to decide is what to do with the time that is given to us.</p>
+                    <p> Hi there! I'm John (Yiannis in Greek) Maris, currently living in Heraklion, Crete, Greece. I'm passionate about data science, machine learning, and mathematics. I'm in the final stages of my master's at the University of Crete and FORTH, where I also work as a Teaching Assistant. Soon, I'll be moving to Brussels to work as an R&D Data Scientist at Toyota Motor, focusing on BEV range. Additionally, I'm a scholarship student at FORTH, working on Generative AI in Protein Engineering. My motivation comes from never giving up, no matter the odds. All we have to decide is what to do with the time given to us.</p>
                     <br>
                     <p>&#9670; Full Résumé <a class = "proj" target = "_blank" href="src/proj/cvj.pdf">here <i class="fas fa-link"> </i></a></p>
                 </div>
@@ -168,6 +168,17 @@ function loadExperienceContent() {
 
                     <div class="card" id="education">
                         <h2>INDUSTRY EXPERIENCE</h2>
+                        <p>- <a class = "proj" target = "_blank" href="https://www.toyota-europe.com">Toyota Motor Europe: BEV Range Internship - Brussels, Zaventem (R&D)</a> (Dec. 2024 - July 2025) </p>
+                        <br>
+                        <p>Skills</p>
+                        <ul>
+                            <li>Data Science & Machine Learning</li>
+                            <li>Poetry Python, Git, Big Data</li>
+                            <li>Electric Powetrain System</li>
+                            <li>BEV System Energy Flow & Breakdown</li>
+                            <li>Compute & Display Range Breakdown and Recommendation</li>
+                            
+                        </ul>
                         <p>- <a class = "proj" target = "_blank" href="https://www.iacm.forth.gr/divisions/numerical-analysis-computational-systems/data-science">Statistical Learning Internship</a> at FORTH (Dec. 2022 - July 2023) </p>
                         <br>
                         <p>Skills</p>
