@@ -201,7 +201,7 @@ function loadExperienceContent() {
                     </div>
 
                     <div class="card" id="education">
-                        <h2>INDUSTRY EXPERIENCE</h2>
+                        <h2>INDUSTRY EXPERIENCE</h2> 
                         <p>- <a class = "proj" target = "_blank" href="https://www.toyota-europe.com">Toyota Motor Europe: BEV Range Internship - Brussels, Zaventem (R&D)</a> (Dec. 2024 - July 2025) </p>
                         <br>
                         <p>Skills</p>
@@ -211,6 +211,17 @@ function loadExperienceContent() {
                             <li>Electric Powetrain System</li>
                             <li>BEV System Energy Flow & Breakdown</li>
                             <li>Compute & Display Range Breakdown and Recommendation</li>
+                        </ul>
+                        <br>
+                        <p>- <a class = "proj" target = "_blank" href="https://www.iacm.forth.gr/media/filesupload/b01b32d59b_APPLE___McS_STUDEND._APOTELESMATA.pdf"> <i class="fab fa-apple"></i> Apple MSc Scholarship - Disentangled Representation Learning via Mutual Information Optimization</a> (Nov. 2024 - Feb 2025) </p>
+                        <ul>Awarded from Apple, through IACM FORTH for my research in protein engineering using large language models to develop enzymes for plastic degradation, aiming to address major environmental challenges through AI and biotechnology.</ul>
+                        <p>Skills</p>
+                        <ul>
+                            <li>Evolutionary Scale Modeling (Meta's ESM)</li>
+                            <li>Low-Rank Adaptation of Large Language Models Optimization (LoRA)</li>
+                            <li>Ancestral Sequence Reconstruction (ASR)</li>
+                            <li>Order-Agnostic Autoregressive Diffusion Models</li>
+                            <li>Discrete Denoising Diffusion Probabilistic Models</li>
                         </ul>
                         <br>
                         <p>- <a class = "proj" target = "_blank" href="https://www.iacm.forth.gr/divisions/numerical-analysis-computational-systems/data-science">Statistical Learning Internship</a> at FORTH (Dec. 2022 - July 2023) </p>
