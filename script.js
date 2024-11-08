@@ -189,16 +189,7 @@ function loadEducationContent() {
 
 function loadExperienceContent() {
     const ExperienceContent = `
-                    <div class="card" id="education">
-                        <h2>ACADEMIC EXPERIENCE</h2>
-                        <p>- Graduate Teaching Assistant - Machine Learning (<a class = "proj" target = "_blank" href="https://www.csd.uoc.gr/CSD/index.jsp?content=pg_courses_catalog&openmenu=demoAcc4&lang=en&course=156">CS577</a>) - Fall 2023; Tasks: lectures, Tutoring, assigning and grading weekly exercises, grading exams. </p>
-                        <br>
-                        <p>- Graduate Teaching Assistant - Computer Language Python<i class="fab fa-python"></i> - Fall 2023; Tasks: Tutoring, assigning and grading weekly exercises.</p>
-                        <br>
-                        <p>- Graduate Teaching Assistant - Numerical Analysis - Spring 2024; Tasks: Tutoring.</p>
-                        <br>
-                        <p>- Undergraduate Teaching Assistant - Introduction to Linear Algebra - Fall 2022; Tasks: Tutoring.</p>
-                    </div>
+                    
 
                     <div class="card" id="education">
                         <h2>INDUSTRY EXPERIENCE</h2> 
@@ -232,6 +223,17 @@ function loadExperienceContent() {
                             <li>Data Analysis & Biostatistics</li>
                             <li>Developing Python and R software</li>
                         </ul>
+                    </div>
+
+                    <div class="card" id="education">
+                        <h2>ACADEMIC EXPERIENCE</h2>
+                        <p>- Graduate Teaching Assistant - Machine Learning (<a class = "proj" target = "_blank" href="https://www.csd.uoc.gr/CSD/index.jsp?content=pg_courses_catalog&openmenu=demoAcc4&lang=en&course=156">CS577</a>) - Fall 2023; Tasks: lectures, Tutoring, assigning and grading weekly exercises, grading exams. </p>
+                        <br>
+                        <p>- Graduate Teaching Assistant - Computer Language Python<i class="fab fa-python"></i> - Fall 2023; Tasks: Tutoring, assigning and grading weekly exercises.</p>
+                        <br>
+                        <p>- Graduate Teaching Assistant - Numerical Analysis - Spring 2024; Tasks: Tutoring.</p>
+                        <br>
+                        <p>- Undergraduate Teaching Assistant - Introduction to Linear Algebra - Fall 2022; Tasks: Tutoring.</p>
                     </div>
     `;
     // Get the "EXPERIENCE" button's position
