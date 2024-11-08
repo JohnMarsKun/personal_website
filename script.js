@@ -191,7 +191,7 @@ function loadExperienceContent() {
     const ExperienceContent = `
                     <div class="card" id="education">
                         <h2>INDUSTRY EXPERIENCE</h2> 
-                        <p>- <a class = "proj" target = "_blank" href="https://www.toyota-europe.com">Toyota Motor Europe: BEV Range Internship - Brussels, Zaventem (R&D)</a> (Dec. 2024 - July 2025) </p>
+                        <p>- <img src="src/toyota-logo.png" alt="Toyota Logo" style="width:26.666px; vertical-align:middle; margin-right:5px;"><a class = "proj" target = "_blank" href="https://www.toyota-europe.com">Toyota Motor Europe: BEV Range Internship - Brussels, Zaventem (R&D)</a> (Dec. 2024 - July 2025) </p>
                         <br>
                         <p>Skills</p>
                         <ul>
