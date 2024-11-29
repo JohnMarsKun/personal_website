@@ -92,7 +92,7 @@ function loadHomeContent() {
 const homeContent = `
                 <div class="card id="about-me">
                     <h2>ABOUT ME</h2>
-                    <p> Hi there! I'm John (Yiannis in Greek) Maris, currently living in Heraklion, Crete, Greece. I'm passionate about data science, machine learning, and mathematics. I'm in the final stages of my master's at the University of Crete and FORTH, where I also work as a Teaching Assistant. Soon, I'll be moving to Brussels to work as an R&D Data Scientist at Toyota Motor, focusing on BEV range. Additionally, I'm a scholarship student at FORTH, working on Generative AI in Protein Engineering. My motivation comes from never giving up, no matter the odds. All we have to decide is what to do with the time given to us.</p>
+                    <p>Hi there! I'm John (Yiannis in Greek) Maris, currently living in Brussels, Evere. I'm passionate about data science, machine learning, and mathematics. I'm in the final stages of my master's at the University of Crete and FORTH, where I also work as a Teaching Assistant. I work as an R&D Data Scientist at Toyota Motor, focusing on BEV range. Additionally, I'm a scholarship student at FORTH, working on Generative AI in Protein Engineering. My motivation comes from never giving up, no matter the odds. All we have to decide is what to do with the time given to us.</p>
                     <br>
                     <p>&#9670; Full Résumé <a class = "proj" target = "_blank" href="src/proj/cvj.pdf">here <i class="fas fa-link"> </i></a></p>
                 </div>
