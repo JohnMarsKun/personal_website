@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preload" href="src/bgimgdark.webp" as="image">
+    <link rel="preload" href="src/easter_egg.png" as="image">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico?v=2"> <!-- add a file named favicon.ico -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>John Maris</title>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          processEscapes: true
+        }
+      });
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script src="script.js"></script>
+    <style>
+        .profile {
+            position: relative;
+        }
+        .profile img {
+            position: relative;
+            z-index: 1;
+            border-radius: 16px;
+        }
+        .profile::before {
+            content: '';
+            position: absolute;
+            top: 20px;
+            left: -20px;
+            width: 115%;
+            height: 110%;
+            background: url('src/tsg3.gif') no-repeat center center;
+            background-size: cover;
+            border-radius: 16px;
+            opacity: 0.766;
+            z-index: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="content-wrap">
+
+        <div class="header">
+            <div class="nav">
+                <nav>
+                    <ul>
+                        <li><a href="#" class="current flicker-anim" id="homeNav" onclick="loadContent('home')">HOME</a></li>
+                        <li><a href="#" class="not-current" id="eduNav" onclick="loadContent('education')">EDUCATION</a></li>
+                        <img id="lnikaGifedu" src="src/Lnika0.gif" style="width: 19x; height: 19px; display: none; position: absolute;" />
+                        <li><a href="#" class="not-current" id="expNav" onclick="loadContent('experience')">EXPERIENCE</a></li>
+                        <img id="lnikaGifexp" src="src/Lnika2.gif" style="width: 23x; height: 23px; display: none; position: absolute;" />
+                        <li><a href="#" class="not-current" id="booksNav" onclick="loadContent('books')">BOOKS</a></li>
+                        <img id="lnikaGifbooks" src="src/Lnika3.gif" style="width: 23px; height: 23px; display: none; position: absolute;" />
+                        <!--<li><a href="#" class="not-current" id="projNav">Projects</a></li>
+                        <li><a href="#" class="not-current">Learning</a></li>-->
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="contents-flexbox" id="mainContent">
+            <div class="contents">
+                <div class="home card">
+
+                    <div class="profile" id="profile" onclick="easterEgg()">
+                        <img src="src/pfp2.png" alt="Profile Image">
+                    </div>
+                    <div class="info">
+                        <div>
+                            <h1>John Maris</h1>
+                        </div>
+
+                        <div class="horizontal-div"></div>
+                        <h3 id="description">
+                            MSc student in&nbsp;
+                            <a href="https://mscs.uoc.gr/damsl/" class="link">Data Analysis & Machine-Statistical Learning</a>
+                        </h3>
+                        <p style="font-size: 14px; margin-top: 10px;"> Email: gianismaris13(AT)gmail.com</p>
+                        <div class="buttons-div">
+                            <a href="https://www.linkedin.com/in/ioannis-maris-987534252/" style="background-color: #0077b5;" target="_blank" class="buttons">
+                                LinkedIn <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/JohnMarsKun" class="buttons" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                        <!-- <div class="course" style="text-align:center;padding:1em 0;"> <h4><a style="text-decoration:none;" ><span style="color:gray;">Current local time in</span><br />Greece</a></h4> <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=en&size=small&timezone=Europe%2FAthens" width="45%" height="90" frameborder="0" seamless></iframe> </div> -->
+                        <div class="clock-container" style="position: relative; width: 250px; height: 250px;">
+                            <img id="gif" src="src/MM3.gif" style="position: absolute; top: 0; left: 170px; width: 71%; height: 71%;" />
+                            <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+                        
+                            
+                        </div>
+                          
+                    </div>
+
+                    <p>&#9670; Collab with me  <a class = "proj" target = "_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">here <i class="fas fa-link"> </i></a></p>
+                </div>
+                
+                <div>
+                    <img src="src/diffmodel.gif" alt="diff_model" style="max-width: 104%; border-radius: 16px; opacity: .915656;">
+                </div>
+
+                <div style="margin-left: 150px;">
+                    <img src="src/alphafold3.gif" alt="alphafold3Protein" style="max-width: 55%; border-radius: 16px; opacity: .27;" >
+                </div>
+
+                <!-- <div>
+                    <img src="src/tsg.gif" alt="diff_model" style="max-width: 113%; border-radius: 16px; opacity: .85656;">
+                </div> -->
+
+                
+            </div>
+          
+            <div class="contents" id="contents2">
+                
+
+            </div>
+        </div>
+        
+    </div>
+    <br>
+    
+    <footer class="footer">
+        <hr style="margin: 20px; color: rgb(0, 0, 0);margin-top: 0px;margin-bottom: 5px;">
+        John Maris 2024
+    </footer>
+  
+    <script src="clock.js"></script>
+
+    
+
+</body>
+
+
+
+</html>
