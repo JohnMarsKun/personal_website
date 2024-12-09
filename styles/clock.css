@@ -1,0 +1,11 @@
+.clock-container {
+    margin: 0 auto;
+}
+
+.clock {
+    color: #98d6e9;
+    font-size: 30px;
+    text-shadow: 0px 0px 30px #F3F8FF;
+    letter-spacing: 7px;
+    margin: 0 auto;
+}

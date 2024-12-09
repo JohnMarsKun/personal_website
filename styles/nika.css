@@ -1,0 +1,25 @@
+.nika {
+    transition: opacity 1s ease-out;
+    opacity: 1;
+}
+
+#lnikaGifedu {
+    width: 19px;
+    height: 19px;
+    display: none;
+    position: absolute;
+}
+
+#lnikaGifbooks {
+    width: 23px;
+    height: 23px;
+    display: none;
+    position: absolute;
+}
+
+#lnikaGifexp {
+    width: 23x;
+    height: 23px;
+    display: none;
+    position: absolute;
+}
