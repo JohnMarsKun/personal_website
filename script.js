@@ -44,7 +44,28 @@ function loadContent(contentId) {
 			console.error('Invalid content ID:', contentId);
 	}
 }
+function shouldIscroll() {
+	var mediaQuery = window.matchMedia('(max-width: 768px)')
 
+	if (mediaQuery.matches) {
+		//window.scrollTo(0, 1050);
+		document.getElementById("contents2").scrollIntoView();
+	}
+
+}
+
+function noGifsOnMobile() {
+	var mediaQuery = window.matchMedia('(max-width: 768px)')
+	if (!mediaQuery.matches) {
+		document.getElementsByClassName("contents")[0].innerHTML += `<div>
+        <img class="defer-gif" src="src/placeholder.png" data-src="src/diffmodel.gif" alt="diff_model" style="max-width: 104%; border-radius: 16px; opacity: .915656;">
+        </div>
+
+        <div style="margin-left: 150px;">
+        <img class="defer-gif" src="src/placeholder.png" data-src="src/alphafold3.gif" alt="alphafold3Protein" style="max-width: 55%; border-radius: 16px; opacity: .27;" >
+        </div>`;
+	}
+}
 function loadHomeContent() {
 	document.getElementById('contents2').innerHTML = homeContent;
 }
@@ -66,8 +87,10 @@ function loadBookContent() {
 
 window.onload = function () {
 	loadHomeContent();
-	document.body.style.opacity = '1';
-};
+	noGifsOnMobile();
+	window.scrollTo(0, 0);
+	document.getElementById("contents2").style.opacity = '1';
+}
 
 function easterEgg() {
 	document.getElementById('profile').innerHTML = '<img src="src/easter_egg.png" style="width:250px">';
