@@ -173,10 +173,11 @@ function loadExperienceContent() {
                         <p>Skills</p>
                         <ul>
                             <li>Data Science & Machine Learning</li>
-                            <li>Poetry Python, Git, Big Data</li>
-                            <li>Electric Powetrain System</li>
-                            <li>BEV System Energy Flow & Breakdown</li>
-                            <li>Compute & Display Range Breakdown and Recommendation</li>
+                            <li>Python, Git, RTBD (Real Time Big Data)</li>
+                            <li>Connected Powetrain</li>
+                            <li>BEV Energy Consumption Prediction</li>
+                            <li>Range Recommendation</li>
+                            <li>Speed Forecast</li>
                             
                         </ul>
                         <p>- <a class = "proj" target = "_blank" href="https://www.iacm.forth.gr/divisions/numerical-analysis-computational-systems/data-science">Statistical Learning Internship</a> at FORTH (Dec. 2022 - July 2023) </p>
