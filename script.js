@@ -174,6 +174,7 @@ function loadExperienceContent() {
                         <ul>
                             <li>Data Science & Machine Learning</li>
                             <li>Python, Git, RTBD (Real Time Big Data)</li>
+                            <li>Hybrid Models, Physical & Data Driven Models</li>
                             <li>Connected Powetrain</li>
                             <li>BEV Energy Consumption Prediction</li>
                             <li>Range Recommendation</li>
