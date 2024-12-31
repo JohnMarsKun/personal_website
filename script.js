@@ -196,10 +196,13 @@ function loadExperienceContent() {
                         <p>Skills</p>
                         <ul>
                             <li>Data Science & Machine Learning</li>
-                            <li>Poetry Python, Git, Big Data</li>
-                            <li>Electric Powetrain System</li>
-                            <li>BEV System Energy Flow & Breakdown</li>
-                            <li>Compute & Display Range Breakdown and Recommendation</li>
+                            <li>Python, Git, RTBD (Real Time Big Data)</li>
+                            <li>Hybrid Models, Physical & Data Driven Models</li>
+                            <li>Connected Powetrain</li>
+                            <li>BEV Energy Consumption Prediction</li>
+                            <li>Range Recommendation</li>
+                            <li>Speed Forecast</li>
+                            
                         </ul>
                         <br>
                         <p>- <a class = "proj" target = "_blank" href="https://www.iacm.forth.gr/media/filesupload/b01b32d59b_APPLE___McS_STUDEND._APOTELESMATA.pdf"> <i class="fab fa-apple"></i> Apple MSc Scholarship - Disentangled Representation Learning via Mutual Information Optimization</a> (Nov. 2024 - Feb 2025) </p>
