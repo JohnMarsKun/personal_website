@@ -92,7 +92,7 @@ function loadHomeContent() {
 const homeContent = `
                 <div class="card id="about-me">
                     <h2>ABOUT ME</h2>
-                    <p>Hi there! I'm John (Yiannis in Greek) Maris, currently living in Brussels, Evere. I'm passionate about data science, machine learning, and mathematics. I'm in the final stages of my master's at the University of Crete and FORTH, where I also work as a Teaching Assistant. I work as an R&D Data Scientist at Toyota Motor, focusing on BEV range. Additionally, I'm a scholarship student at FORTH, working on Generative AI in Protein Engineering. My motivation comes from never giving up, no matter the odds. All we have to decide is what to do with the time given to us.</p>
+                    <p>Hi there! I'm John (Yiannis in Greek) Maris, currently living in Brussels. I'm passionate about data science, machine learning, and mathematics. I hold a Master's degree from the University of Crete, where I also worked as a Graduate Teaching Assistant. I recently completed my internship as an R&D Data Scientist at Toyota Motor Europe in Brussels. Additionally, I hold an Apple scholarship through FORTH-HELLAS, where I worked on Generative AI in Protein Engineering using Large Language Models. My motivation comes from never giving up, no matter the odds.</p>
                     <br>
                     <p>&#9670; Full Résumé <a class = "proj" target = "_blank" href="src/proj/cvj.pdf">here <i class="fas fa-link"> </i></a></p>
                 </div>
@@ -104,13 +104,20 @@ const homeContent = `
                 <div class="card" id="projects">
                     <h2>PROJECTS/PUBLICATIONS</h2>
                     <ul>
+
+                        <li>
+                        <a class="link" href="src/proj/MSc-Thesis-Ioannis-Maris-GenAI-in-protein-eng.pdf" target="_blank">Generative AI in Protein Engineering using Large Language Diffusion Models <i class="fas fa-link"> </i></a>
+                        </li>
+                    
+            
+                        <li>
+                        <a class="link" href="src/proj/Time_Series_Assignment02.pdf" target="_blank"> 15-minutes-ahead forecast of Traffic Volumes time series in Athens using Occupancies and AR models: employing Koyck transformation, autoregressive distributed lag models, ARIMA and GARCH models for residuals and volatility correction; investigating forecast combination schemes using robust quantile regression <i class="fas fa-link"> </i> </a>
+                        </li>
+
                         <li>
                         <a class="link" href="src/proj/DeepGenAI_Project.pdf" target="_blank">DiMA Protein Design: Generating Antimicrobial Peptides using Diffusion Models <i class="fas fa-link"> </i></a>
                         </li>
                         
-                        <li>
-                        <a class="link" href="src/proj/Time_Series_Assignment02.pdf" target="_blank"> 15-minutes-ahead forecast of Traffic Volumes time series in Athens using Occupancies and AR models: employing Koyck transformation, autoregressive distributed lag models, ARIMA and GARCH models for residuals and volatility correction; investigating forecast combination schemes using robust quantile regression <i class="fas fa-link"> </i> </a>
-                        </li>
 
                         <li>
                         <a class="link" href="src/proj/Time_Series_Assignment01.pdf" target="_blank"> Evaluating CO2 emission trends; forecasting solar irradiance in Hawaii using additive models with seasonal indicators to harmonic ones, using Quantile regression and analyzing Traffic Volumes using Distributed Lag Models <i class="fas fa-link"> </i> </a>
