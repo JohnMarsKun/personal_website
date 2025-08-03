@@ -32,8 +32,8 @@ function loadEducationContent() {
 const educationContent = `
                 <div class="card" id="education">
                     <h2>ACADEMIC EDUCATION</h2>
-                    <p>- MSc Data Analysis & Machine-Statistical Learning 2023-2025 (90 ECTS) at <a class = "course" target = "_blank" href="https://www.forth.gr/en/home/">FORTH</a></p>
-                    <p>- BSc Mathematics & Applied Mathematics 2018-2023 (274 ECTS) at <a class = "course" target = "_blank" href="https://en.uoc.gr">Uoc</a></p>
+                    <p>- MSc Data Analysis & Machine-Statistical Learning 2023-2025 (110 ECTS) at <a class = "course" target = "_blank" href="https://www.forth.gr/en/home/">FORTH</a> & UoC | Graduating as Valedictorian.</p>
+                    <p>- BSc Mathematics & Applied Mathematics 2018-2023 (274 ECTS) at <a class = "course" target = "_blank" href="https://en.uoc.gr">UoC</a>.</p>
                     <br>
                     <h3>Relevant Coursework</h3>
                     <p>Here are some relevant courses I took during my years in university:</p>
@@ -62,7 +62,7 @@ const educationContent = `
                     <br>
                     <p>- MSc supervisor: <a class = "proj" target = "_blank" href="https://www.iacm.forth.gr/index.php/cb-profile/1006-yannis-pantazis">Yiannis Pantazis <i class="fas fa-link"> </i></a> </p>
                     <br>
-                    <p>Topic: Generative AI in Protein Engineering using Large Language Diffusion Models. (Ongoing)</p>
+                    <p>Topic: Generative AI in Protein Engineering using Large Language Diffusion Models.</p>
                 </div>
 `;
 
