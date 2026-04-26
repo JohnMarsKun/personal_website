@@ -8,6 +8,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="preload" href="src/bgimgdark.webp" as="image">
     <link rel="preload" href="src/easter_egg.png" as="image">
 
@@ -24,7 +27,7 @@
       });
     </script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <style>
         .profile {
             position: relative;
@@ -59,9 +62,9 @@
                     <ul>
                         <li><a href="#" class="current flicker-anim" id="homeNav" onclick="loadContent('home')">HOME</a></li>
                         <li><a href="#" class="not-current" id="eduNav" onclick="loadContent('education')">EDUCATION</a></li>
-                        <img id="lnikaGifedu" src="src/Lnika0.gif" style="width: 19x; height: 19px; display: none; position: absolute;" />
+                        <img id="lnikaGifedu" src="src/Lnika0.gif" style="width: 19px; height: 19px; display: none; position: absolute;" />
                         <li><a href="#" class="not-current" id="expNav" onclick="loadContent('experience')">EXPERIENCE</a></li>
-                        <img id="lnikaGifexp" src="src/Lnika2.gif" style="width: 23x; height: 23px; display: none; position: absolute;" />
+                        <img id="lnikaGifexp" src="src/Lnika2.gif" style="width: 23px; height: 23px; display: none; position: absolute;" />
                         <li><a href="#" class="not-current" id="booksNav" onclick="loadContent('books')">BOOKS</a></li>
                         <img id="lnikaGifbooks" src="src/Lnika3.gif" style="width: 23px; height: 23px; display: none; position: absolute;" />
                         <!--<li><a href="#" class="not-current" id="projNav">Projects</a></li>
