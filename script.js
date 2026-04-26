@@ -311,10 +311,17 @@ function loadBookContent() {
     }, 2000);
 }
     
+function updateFooterYear() {
+    var footerYear = document.getElementById('footer-year');
+    if (footerYear) {
+        footerYear.textContent = new Date().getFullYear();
+    }
+}
 
 // Call loadHomeContent and fade in body when page loads
 window.onload = function() {
     loadHomeContent();
+    updateFooterYear();
     document.body.style.opacity= '1';
 };
 
