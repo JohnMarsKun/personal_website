@@ -92,7 +92,11 @@ function loadHomeContent() {
 const homeContent = `
                 <div class="card id="about-me">
                     <h2>ABOUT ME</h2>
-                    <p>Hi there! I'm John (Yiannis in Greek) Maris, currently living in Brussels. I'm passionate about data science, machine learning, and mathematics. I hold a Master's degree from the University of Crete, where I also worked as a Graduate Teaching Assistant. I recently completed my internship as an R&D Data Scientist at Toyota Motor Europe in Brussels. Additionally, I hold an Apple scholarship through FORTH-HELLAS, where I worked on Generative AI in Protein Engineering using Large Language Models. My motivation comes from never giving up, no matter the odds.</p>
+                    <p>Hi there! I'm John (Yiannis in Greek) Maris, currently based in Heraklion, Crete. I'm passionate about data science, machine learning, mathematics, as well as finance and renewable energy.
+                        I hold a Master’s degree from the University of Crete, where I also worked as a Graduate Teaching Assistant and graduated as valedictorian. I’ve received multiple scholarships, including from Apple and the Independent Power Transmission Operator.
+                        Currently, I work as a Data Scientist at Rener Energy, focusing on grid-scale battery storage and forecasting in the stock market. Previously, I completed my internship as a Data Scientist at Toyota Motor Europe in Brussels, and I’ve also worked in Generative AI and statistics-related roles.
+                        My motivation comes from consistently pushing forward and never giving up, no matter the odds.
+                    </p>
                     <br>
                     <p>&#9670; Full Résumé <a class = "proj" target = "_blank" href="src/proj/cvj.pdf">here <i class="fas fa-link"> </i></a></p>
                 </div>
@@ -164,6 +168,17 @@ function loadExperienceContent() {
     const ExperienceContent = `
                     <div class="card" id="education">
                         <h2>INDUSTRY EXPERIENCE</h2> 
+                        <p>- <img src="src/rener-energy-logo.png" alt="Rener Energy Logo" style="width:26.666px; vertical-align:middle; margin-right:5px;"><a class = "proj" target = "_blank" href="https://renerenergy.gr">Rener Energy: Data Scientist</a> (Apr. 2026 - Today) </p>
+                        <br>
+                        <p>Skills</p>
+                        <ul>
+                            <li>Grid-Scale Battery Storage Analytics</li>
+                            <li>Time Series Forecasting & Econometrics</li>
+                            <li>Stock Market Forecasting</li>
+                            <li>Data Science, Machine Learning & Statistical Modeling</li>
+                            <li>Renewable Energy Systems & Mathematical Modeling</li>
+                        </ul>
+                        <br>
                         <p>- <img src="src/toyota-logo.png" alt="Toyota Logo" style="width:26.666px; vertical-align:middle; margin-right:5px;"><a class = "proj" target = "_blank" href="https://www.toyota-europe.com">Toyota Motor Europe: BEV Range Internship - Brussels, Zaventem (R&D)</a> (Dec. 2024 - July 2025) </p>
                         <br>
                         <p>Skills</p>
